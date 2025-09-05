@@ -12,7 +12,7 @@ csvquote tmdb-movies.csv | sort | uniq -d | csvquote -u > duplicate_rows.csv
 (head -n1 tmdb-movies.csv && tail -n +2 tmdb-movies.csv | csvquote | sort -u | csvquote -u) > tmdb_movies_cleaned.csv
 
 # Sắp xếp các bộ phim theo ngày phát hành giảm dần rồi lưu ra một file mới
-acsvquote tmdb_movies_cleaned.csv |\
+csvquote tmdb_movies_cleaned.csv |\
 awk -F',' 'BEGIN {OFS=","}
 NR==1 {
     print "full_date," $0
@@ -36,7 +36,7 @@ csvquote -u > sort.csv
 
 		tail -n +2 tmdb_movies_cleaned.csv |\
 		csvquote |\
-		awk -F',' '$22 > 7.5' |\
+		awk -F',' '$18 > 7.5' |\
 		csvquote -u
 } > high_rate.csv
 
@@ -81,7 +81,7 @@ END {
 }' | csvquote -u > revenue.csv
 
 # Tính tổng doanh thu tất cả các bộ phim
-csvquote tmdb-movies_cleaned.csv | awk -F',' 'NR > 1 {sum += $5} END {print "Total Revenue: " sum}' > sum_revenue.csv
+csvquote tmdb_movies_cleaned.csv | awk -F',' 'NR > 1 {sum += $5} END {print "Total Revenue: " sum}' > sum_revenue.csv
 
 # Top 10 bộ phim đem về lợi nhuận cao nhất
 csvquote tmdb_movies_cleaned.csv |\

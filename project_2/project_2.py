@@ -1,4 +1,5 @@
 import asyncio
+from datetime import datetime
 import aiohttp
 import aiosqlite
 import pandas as pd
@@ -10,12 +11,13 @@ api_url = "https://api.tiki.vn/product-detail/api/v1/products/{}"
 file_path = "products-0-200000.xlsx"
 db_file = "crawl.db"
 output_dir = "crawled_files"
+summary_file = "crawl_summary.txt"
 header = {
     "User-Agent": "Mozilla/5.0",
     "Accept": "application/json"
 }
 concurrency = 60
-limit_connect = 50
+limit_connect = 40
 
 logging.basicConfig(
     level=logging.INFO,
@@ -107,7 +109,7 @@ async def fetch_product(session, sem, product_id):
                         message = f"Lỗi HTTP {status_code}"
                         logging.warning(f"{message} - product id: {product_id}, thử lại {attempt}/3")
                         if attempt < 3:
-                            await asyncio.sleep(2**attempt)
+                            await asyncio.sleep(2**attempt + attempt)
                         else:
                             logging.warning(f"Crawl thất bại sau {attempt} lần thử lại - product id: {product_id} - {message}")
             except Exception as e:
@@ -115,7 +117,7 @@ async def fetch_product(session, sem, product_id):
                 message = f"Lỗi exception {e}"
                 logging.error(f"{message} - product id: {product_id}, thử lại {attempt}/3")
                 if attempt < 3:
-                    await asyncio.sleep(2**attempt)
+                    await asyncio.sleep(2**attempt + attempt)
                 else:
                     logging.warning(f"Crawl thất bại sau {attempt} lần thử lại - product id: {product_id} - {message}")
     return product, status, message
@@ -145,6 +147,33 @@ async def process_batch(session, db, sem, batch_id, ids):
         except Exception:
             logging.exception(f"Lỗi khi xuất file csv cho batch {batch_id}")
 
+async def export_summary(db_file):
+    async with aiosqlite.connect(db_file) as db:
+        async with db.execute("""
+            SELECT
+                status
+                ,message
+                ,COUNT(1) total
+            FROM PRODUCTS
+            GROUP BY status, message
+        """) as cursor:
+            status_count = await cursor.fetchall()
+
+        async with db.execute("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM products") as cursor:
+            min_time, max_time = await cursor.fetchone()
+
+        start_time = datetime.fromisoformat(min_time)
+        end_time = datetime.fromisoformat(max_time)
+        duration = end_time - start_time
+
+        with open(summary_file, "w", encoding="utf-8") as f:
+            f.write("CRAWL JOB SUMMARY:\n")
+            f.write(f"Tổng thời gian crawl 200k sản phẩm: {duration}\n")
+            f.write("Tổng hợp kết quả theo status:\n")
+            for status, message, count in status_count:
+                f.write(f"- {status} - {message}: {count}\n")
+    logging.info(f"Đã tổng hợp kết quả crawl vào file {summary_file}")
+
 async def main():
     os.makedirs(output_dir, exist_ok=True)
     await init_db(file_path)
@@ -169,6 +198,7 @@ async def main():
                 logging.info(f"Bắt đầu crawl batch {batch_id} ({len(ids)} sản phẩm)")
                 await process_batch(session, db, sem, batch_id, ids)
             logging.info("Hoàn thành crawl toàn bộ sản phẩm")
+    await export_summary(db_file)
 
 if __name__ == "__main__":
     asyncio.run(main())

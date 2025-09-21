@@ -39,6 +39,3 @@ async def init_db(file_path):
         """)
         await db.commit()
     logging.info(f"Đã insert thành công {len(ids)} product_id vào bảng products trong crawl.db")
-
-# if __name__ == "__main__":
-#     asyncio.run(init_db(file_path))

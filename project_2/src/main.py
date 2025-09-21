@@ -40,6 +40,27 @@ async def main():
                 ids = [r[0] for r in rows]
                 logging.info(f"Bắt đầu crawl batch {batch_id} ({len(ids)} sản phẩm)")
                 await process_batch(session, db, sem, batch_id, ids)
+
+            # Bắt đầu crawl lại các sản phẩm lỗi tạm thời (Error nhưng không phải 404)
+            logging.info("Bắt đầu crawl lại các sản phẩm lỗi khác 404")
+            async with db.execute("""
+                SELECT product_id 
+                FROM products 
+                WHERE status='Error' AND message NOT LIKE '%404%'
+            """) as cursor:
+                rows = await cursor.fetchall()
+                retry_ids = [r[0] for r in rows]
+
+            if retry_ids:
+                await db.executemany(
+                    "UPDATE products SET status='Pending', message=NULL WHERE product_id=?",
+                    [(pid,) for pid in retry_ids]
+                )
+                await db.commit()
+                batch_id = f"retry_error_batch_{len(retry_ids)}_ids.csv"
+                await process_batch(session, db, sem, batch_id, retry_ids)
+            else:
+                logging.info("Không còn sản phẩm crawl lỗi khác 404")
             logging.info("Hoàn thành crawl toàn bộ sản phẩm")
     await export_summary(db_file)
 

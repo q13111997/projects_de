@@ -1,0 +1,6 @@
+CRAWL JOB SUMMARY:
+------------------
+Tổng thời gian crawl 200k sản phẩm: 7:08:54
+Tổng hợp kết quả theo status:
+- Error - Lỗi HTTP 404: Không tim thấy product id: 1058
+- Success - None: 198942

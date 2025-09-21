@@ -35,7 +35,8 @@ async def init_db(file_path):
                 SELECT t1.batch_id
                 FROM t1
                 WHERE t1.product_id = products.product_id
-            );
+            )
+            WHERE batch_id IS NULL;
         """)
         await db.commit()
     logging.info(f"Đã insert thành công {len(ids)} product_id vào bảng products trong crawl.db")

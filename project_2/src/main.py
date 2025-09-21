@@ -1,8 +1,6 @@
 import asyncio
-from datetime import datetime
 import aiohttp
 import aiosqlite
-import pandas as pd
 import logging
 import os
 from src.db import init_db
@@ -49,7 +47,7 @@ async def main():
                 WHERE status='Error' AND message NOT LIKE '%404%'
             """) as cursor:
                 rows = await cursor.fetchall()
-                retry_ids = [r[0] for r in rows]
+            retry_ids = [r[0] for r in rows]
 
             if retry_ids:
                 await db.executemany(
@@ -57,7 +55,7 @@ async def main():
                     [(pid,) for pid in retry_ids]
                 )
                 await db.commit()
-                batch_id = f"retry_error_batch_{len(retry_ids)}_ids.csv"
+                batch_id = f"retry_error"
                 await process_batch(session, db, sem, batch_id, retry_ids)
             else:
                 logging.info("Không còn sản phẩm crawl lỗi khác 404")

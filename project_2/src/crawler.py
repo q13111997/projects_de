@@ -105,6 +105,7 @@ async def export_summary(db_file):
 
         with open(summary_file, "w", encoding="utf-8") as f:
             f.write("CRAWL JOB SUMMARY:\n")
+            f.write("------------------\n")
             f.write(f"Tổng thời gian crawl 200k sản phẩm: {duration}\n")
             f.write("Tổng hợp kết quả theo status:\n")
             for status, message, count in status_count:

@@ -13,7 +13,7 @@ header = {
     "Accept": "application/json"
 }
 concurrency = 60
-limit_connect = 38
+limit_connect = 45
 
 logging.basicConfig(
     level=logging.INFO,

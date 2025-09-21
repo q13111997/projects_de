@@ -1,14 +1,14 @@
 import pandas as pd
 import aiosqlite
 import logging
-from datetime import datetime
-from src import configs
+import asyncio
+from src.configs import file_path, db_file
 
 # Khởi tạo db và import thông tin product_id cần crawl từ file xlsx
 async def init_db(file_path):
     df = pd.read_excel(file_path)
     ids = df["id"].tolist()
-    async with aiosqlite.connect(configs.db_file) as db:
+    async with aiosqlite.connect(db_file) as db:
         await db.execute("""
         CREATE TABLE IF NOT EXISTS products (
             batch_id INTEGER,
@@ -39,3 +39,6 @@ async def init_db(file_path):
         """)
         await db.commit()
     logging.info(f"Đã insert thành công {len(ids)} product_id vào bảng products trong crawl.db")
+
+# if __name__ == "__main__":
+#     asyncio.run(init_db(file_path))

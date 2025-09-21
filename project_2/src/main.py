@@ -4,10 +4,10 @@ import aiohttp
 import aiosqlite
 import pandas as pd
 import logging
-from bs4 import BeautifulSoup
 import os
-from pathlib import Path
-
+from src.db import init_db
+from src.crawler import fetch_product, process_batch, export_summary
+from src.configs import output_dir, file_path, concurrency, limit_connect, db_file
 
 async def main():
     os.makedirs(output_dir, exist_ok=True)

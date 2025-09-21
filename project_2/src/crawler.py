@@ -4,9 +4,8 @@ import aiosqlite
 import pandas as pd
 import logging
 import os
-from .configs import api_url, header, output_dir, summary_file
-from .db import
-from .utils import clean_description
+from src.configs import api_url, output_dir, summary_file, header
+from src.utils import clean_description
 
 async def fetch_product(session, sem, product_id):
     product = None

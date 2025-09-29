@@ -1,0 +1,18 @@
+2025-09-29 08:07:49,781 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 08:07:49,785 INFO: Bảng product_info hiện có 0 product_id
+2025-09-29 08:07:49,787 INFO: Đã xóa dữ liệu trong bảng product_info
+2025-09-29 08:09:01,557 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 08:09:01,557 INFO: Bảng product_info hiện có 0 product_id
+2025-09-29 08:09:01,560 INFO: Đã xóa dữ liệu trong bảng product_info
+2025-09-29 08:10:30,623 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 08:10:30,624 INFO: Bảng product_list hiện có 0 product_id
+2025-09-29 08:10:30,637 INFO: Đã xóa dữ liệu trong bảng product_list
+2025-09-29 08:10:30,915 INFO: Insert dữ liệu thành công vào bảng product_list
+2025-09-29 08:10:39,289 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 08:10:39,300 INFO: Bảng product_list hiện có 200000 product_id
+2025-09-29 08:10:39,300 INFO: Bảng product_list đã có đủ dữ liệu, bỏ qua insert
+2025-09-29 08:12:26,898 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 08:12:26,899 INFO: Bảng product_list hiện có 0 product_id
+2025-09-29 08:12:26,901 INFO: Đã xóa dữ liệu trong bảng product_list
+2025-09-29 08:12:27,168 INFO: Insert dữ liệu thành công vào bảng product_list
+2025-09-29 08:12:28,098 INFO: Đã tạo batch_id cho bảng product_list

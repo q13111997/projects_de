@@ -55,19 +55,19 @@ async def init_db(file_path):
         await conn.execute("TRUNCATE TABLE product_list RESTART IDENTITY")
         logging.info('Đã xóa dữ liệu trong bảng!')
         await conn.copy_records_to_table(
-            "products",
+            "product_list",
             records=ids,
             columns=["product_id"]
         )
-        logging.info('Insert dữ liệu thành công!')
+        logging.info('Insert dữ liệu thành công vào bảng product_list!')
         await conn.execute("""
             WITH t1 AS (
                 SELECT 
                     product_id,
                     CAST((ROW_NUMBER() OVER (ORDER BY product_id) - 1) / 1000 AS INTEGER) AS batch_id
-                FROM products
+                FROM product_info
             )
-            UPDATE products p
+            UPDATE product_list p
             SET batch_id = t1.batch_id
             FROM t1
             WHERE p.product_id = t1.product_id

@@ -5,7 +5,6 @@ import asyncpg
 from configparser import ConfigParser
 from src.configs import file_path, db_file, load_config, db_config
 
-
 def load_config(filename=db_config, section='postgresql'):
     parser = ConfigParser()
     parser.read(filename)
@@ -25,9 +24,19 @@ async def init_db(file_path):
     params = load_config()
     conn = await asyncpg.connect(**params)
     await conn.execute("""
+            CREATE TABLE IF NOT EXISTS product_info_stg (
+                id INT,
+                name TEXT,
+                url_key TEXT,
+                price NUMERIC(15,2),
+                description TEXT,
+                images TEXT  
+            )
+            """)
+    await conn.execute("""
             CREATE TABLE IF NOT EXISTS product_info (
                 id INT PRIMARY KEY,
-                name TEXT NOT NULL,
+                name TEXT,
                 url_key TEXT,
                 price NUMERIC(15,2),
                 description TEXT,
@@ -45,33 +54,30 @@ async def init_db(file_path):
             """)
     logging.info('Tạo thành công bảng product_info và product_list!')
     count_id = await conn.fetchval("SELECT COUNT(*) FROM product_list")
-    logging.info(f'Bảng product_info hiện có {count_id} product_id')
+    logging.info(f'Bảng product_list hiện có {count_id} product_id')
     if count_id != len(ids):
         await conn.execute("TRUNCATE TABLE product_list RESTART IDENTITY")
-        logging.info('Đã xóa dữ liệu trong bảng product_info')
+        logging.info('Đã xóa dữ liệu trong bảng product_list')
         await conn.copy_records_to_table(
-            "products",
+            "product_list",
             records=ids,
             columns=["product_id"]
         )
-        logging.info('Insert dữ liệu thành công vào bảng product_info')
+        logging.info('Insert dữ liệu thành công vào bảng product_list')
         await conn.execute("""
                 WITH t1 AS (
                     SELECT 
                         product_id,
                         CAST((ROW_NUMBER() OVER (ORDER BY product_id) - 1) / 1000 AS INTEGER) AS batch_id
-                    FROM products
+                    FROM product_list
                 )
-                UPDATE products p
+                UPDATE product_list p
                 SET batch_id = t1.batch_id
                 FROM t1
                 WHERE p.product_id = t1.product_id
                   AND p.batch_id IS NULL;
             """)
-        logging.info('Đã tạo batch_id cho bảng product_info')
+        logging.info('Đã tạo batch_id cho bảng product_list')
     else:
-        logging.info('Bảng product_info đã có đủ dữ liệu, bỏ qua insert')
+        logging.info('Bảng product_list đã có đủ dữ liệu, bỏ qua insert')
     await conn.close()
-
-if __name__ == '__main__':
-    asyncio.run(init_db(file_path))

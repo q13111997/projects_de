@@ -5,7 +5,6 @@ from configparser import ConfigParser
 base_dir = Path(__file__).resolve().parent.parent
 api_url = "https://api.tiki.vn/product-detail/api/v1/products/{}"
 file_path = base_dir / "input" / "products-0-200000.xlsx"
-db_file = base_dir / "data" / "crawl.db"
 output_dir = base_dir / "output"
 summary_file = base_dir / "logs" /"crawl_summary.txt"
 log_file = base_dir / "logs" / "crawl_log.log"

@@ -4,7 +4,8 @@ import aiosqlite
 import pandas as pd
 import logging
 import os
-from src.configs import api_url, output_dir, summary_file, header
+import asyncpg
+from src.configs import api_url, output_dir, summary_file, header, load_config
 from src.utils import clean_description
 
 async def fetch_product(session, sem, product_id):
@@ -57,7 +58,7 @@ async def fetch_product(session, sem, product_id):
                     logging.warning(f"Crawl thất bại sau {attempt} lần thử lại - product id: {product_id} - {message}")
     return product, status, message
 
-async def process_batch(session, db, sem, batch_id, ids):
+async def process_batch(session, db_conn, sem, batch_id, ids):
     tasks = [fetch_product(session, sem, id) for id in ids]
     results = await asyncio.gather(*tasks, return_exceptions=True)
     updates = []
@@ -70,8 +71,7 @@ async def process_batch(session, db, sem, batch_id, ids):
             updates.append((status, message, product_id))
             if product is not None:
                 products.append(product)
-    await db.executemany("UPDATE products SET status=?, message=?, last_update=CURRENT_TIMESTAMP WHERE product_id=?",updates)
-    await db.commit()
+    await db_conn.executemany("UPDATE product_list SET status=?, message=?, last_update=CURRENT_TIMESTAMP WHERE product_id=?",updates)
     logging.info(f"Đã commit batch {batch_id} ({len(updates)} sản phẩm)")
     if products:
         try:
@@ -80,34 +80,56 @@ async def process_batch(session, db, sem, batch_id, ids):
             df = df.drop_duplicates(subset=["id"],keep="first") # tránh duplicate thông tin sản phẩm trong batch trước khi ghi ra file
             df.to_csv(out_file, index=False, encoding="utf-8")
             logging.info(f"Đã ghi {len(products)} sản phẩm vào file {out_file}")
+            try:
+                await db_conn.execute("TRUNCATE TABLE product_info_stg")
+                with open(out_file, "r", encoding="utf-8") as f:
+                    await db_conn.copy_to_table(
+                        "product_info_stg",
+                        source=f,
+                        format="csv",
+                        header=True,
+                        delimiter=",",
+                        columns=["id","name","url_key","price","description","images"]
+                    )
+                    await db_conn.execute('''
+                        INSERT INTO product_info (id, name, url_key, price, description, images)
+                        SELECT id, name, url_key, price, description, images
+                        FROM product_info_stg
+                        ON CONFLICT (id) DO UPDATE
+                        SET name = EXCLUDED.name,
+                            url_key = EXCLUDED.url_key,
+                            price = EXCLUDED.price,
+                            description = EXCLUDED.description,
+                            images = EXCLUDED.images
+                    ''')
+                    logging.info(f"Đã insert {len(products)} sản phẩm từ file {out_file} vào database PostgeSQL")
+            except Exception:
+                logging.exception(f"Lỗi khi insert từ file {out_file} vào database PostgeSQL")
         except Exception:
             logging.exception(f"Lỗi khi xuất file csv cho batch {batch_id}")
 
 
-async def export_summary(db_file):
-    async with aiosqlite.connect(db_file) as db:
-        async with db.execute("""
-            SELECT
-                status
-                ,message
-                ,COUNT(1) total
-            FROM PRODUCTS
-            GROUP BY status, message
-        """) as cursor:
-            status_count = await cursor.fetchall()
+async def export_summary(db_conn):
+    status_count = db_conn.fetchrow("""
+        SELECT
+            status
+            ,message
+            ,COUNT(1) total
+        FROM product_list
+        GROUP BY status, message
+    """)
 
-        async with db.execute("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM products") as cursor:
-            min_time, max_time = await cursor.fetchone()
+    min_time, max_time = db_conn.fetchrow("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM product_list")
 
-        start_time = datetime.fromisoformat(min_time)
-        end_time = datetime.fromisoformat(max_time)
-        duration = end_time - start_time
+    start_time = datetime.fromisoformat(min_time)
+    end_time = datetime.fromisoformat(max_time)
+    duration = end_time - start_time
 
-        with open(summary_file, "w", encoding="utf-8") as f:
-            f.write("CRAWL JOB SUMMARY:\n")
-            f.write("------------------\n")
-            f.write(f"Tổng thời gian crawl 200k sản phẩm: {duration}\n")
-            f.write("Tổng hợp kết quả theo status:\n")
-            for status, message, count in status_count:
-                f.write(f"- {status} - {message}: {count}\n")
+    with open(summary_file, "w", encoding="utf-8") as f:
+        f.write("CRAWL JOB SUMMARY:\n")
+        f.write("------------------\n")
+        f.write(f"Tổng thời gian crawl 200k sản phẩm: {duration}\n")
+        f.write("Tổng hợp kết quả theo status:\n")
+        for status, message, count in status_count:
+            f.write(f"- {status} - {message}: {count}\n")
     logging.info(f"Đã tổng hợp kết quả crawl vào file {summary_file}")

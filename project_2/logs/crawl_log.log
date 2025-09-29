@@ -9368,3 +9368,15 @@
 2025-09-22 06:44:59,745 INFO: Đã ghi 5 sản phẩm vào file /home/quannh/projects_de/project_2/output/products_batch_retry_error_5_ids.csv
 2025-09-22 06:44:59,745 INFO: Hoàn thành crawl toàn bộ sản phẩm
 2025-09-22 06:44:59,837 INFO: Đã tổng hợp kết quả crawl vào file /home/quannh/projects_de/project_2/logs/crawl_summary.txt
+2025-09-29 22:02:25,793 INFO: Đã insert thành công 200000 product_id vào bảng products trong crawl.db
+2025-09-29 22:02:25,807 INFO: Đã crawl hết sản phẩm
+2025-09-29 22:02:25,807 INFO: Bắt đầu crawl lại các sản phẩm lỗi khác 404
+2025-09-29 22:02:25,817 INFO: Không còn sản phẩm crawl lỗi khác 404
+2025-09-29 22:02:25,817 INFO: Hoàn thành crawl toàn bộ sản phẩm
+2025-09-29 22:02:25,903 INFO: Đã tổng hợp kết quả crawl vào file /home/quannh/projects_de/project_2/logs/crawl_summary.txt
+2025-09-29 22:04:58,474 INFO: Đã insert thành công 200000 product_id vào bảng products trong crawl.db
+2025-09-29 22:04:58,489 INFO: Đã crawl hết sản phẩm
+2025-09-29 22:04:58,489 INFO: Bắt đầu crawl lại các sản phẩm lỗi khác 404
+2025-09-29 22:04:58,498 INFO: Không còn sản phẩm crawl lỗi khác 404
+2025-09-29 22:04:58,498 INFO: Hoàn thành crawl toàn bộ sản phẩm
+2025-09-29 22:04:58,582 INFO: Đã tổng hợp kết quả crawl vào file /home/quannh/projects_de/project_2/logs/crawl_summary.txt

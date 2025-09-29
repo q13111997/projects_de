@@ -24,6 +24,7 @@ async def main():
             batch_id = row[0]
             # Reset toàn bộ batch về Pending trước khi crawl
             await db_conn.execute("UPDATE product_list SET status='Pending', message=NULL WHERE batch_id=$1",batch_id)
+            logging.info(f"Đã update lại status của batch {batch_id} về pending để tiến hành crawl lại batch")
             # Lấy danh sách sản product id trong batch để crawl
             rows = await db_conn.fetch("SELECT product_id FROM product_list WHERE status = 'Pending' AND batch_id=$1",batch_id)
             ids = [r[0] for r in rows]

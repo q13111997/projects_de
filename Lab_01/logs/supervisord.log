@@ -1,0 +1,1086 @@
+2025-09-29 20:29:11,504 INFO RPC interface 'supervisor' initialized
+2025-09-29 20:29:11,504 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-09-29 20:29:11,505 INFO daemonizing the supervisord process
+2025-09-29 20:29:11,506 INFO supervisord started with pid 5426
+2025-09-29 20:29:12,509 INFO spawned: 'crawl' with pid 5427
+2025-09-29 20:29:12,691 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 20:29:13,695 INFO spawned: 'crawl' with pid 5435
+2025-09-29 20:29:13,844 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 20:29:15,848 INFO spawned: 'crawl' with pid 5436
+2025-09-29 20:29:16,008 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 20:29:19,381 INFO spawned: 'crawl' with pid 5439
+2025-09-29 20:29:19,523 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 20:29:20,525 INFO gave up: crawl entered FATAL state, too many start retries too quickly
+2025-09-29 20:30:39,976 INFO spawned: 'crawl' with pid 5674
+2025-09-29 20:30:40,978 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:29,086 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:30,090 INFO spawned: 'crawl' with pid 11268
+2025-09-29 21:33:31,092 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:32,944 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:33,947 INFO spawned: 'crawl' with pid 11285
+2025-09-29 21:33:34,949 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:36,839 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:37,843 INFO spawned: 'crawl' with pid 11303
+2025-09-29 21:33:38,845 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:41,797 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:42,800 INFO spawned: 'crawl' with pid 11322
+2025-09-29 21:33:43,801 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:45,809 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:46,813 INFO spawned: 'crawl' with pid 11343
+2025-09-29 21:33:47,814 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:49,672 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:50,675 INFO spawned: 'crawl' with pid 11359
+2025-09-29 21:33:51,676 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:54,607 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:33:55,611 INFO spawned: 'crawl' with pid 11380
+2025-09-29 21:33:56,612 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:33:59,603 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:00,607 INFO spawned: 'crawl' with pid 11401
+2025-09-29 21:34:01,609 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:03,511 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:04,513 INFO spawned: 'crawl' with pid 11419
+2025-09-29 21:34:05,514 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:08,446 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:09,449 INFO spawned: 'crawl' with pid 11437
+2025-09-29 21:34:10,451 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:13,417 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:14,420 INFO spawned: 'crawl' with pid 11459
+2025-09-29 21:34:15,422 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:17,329 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:18,331 INFO spawned: 'crawl' with pid 11476
+2025-09-29 21:34:19,332 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:22,286 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:23,290 INFO spawned: 'crawl' with pid 11492
+2025-09-29 21:34:24,292 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:26,253 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:27,256 INFO spawned: 'crawl' with pid 11521
+2025-09-29 21:34:28,258 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:30,289 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:31,292 INFO spawned: 'crawl' with pid 11542
+2025-09-29 21:34:32,294 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:35,237 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:36,241 INFO spawned: 'crawl' with pid 11560
+2025-09-29 21:34:37,242 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:40,239 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:41,243 INFO spawned: 'crawl' with pid 11576
+2025-09-29 21:34:42,245 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:45,259 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:46,263 INFO spawned: 'crawl' with pid 11598
+2025-09-29 21:34:47,265 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:49,213 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:50,217 INFO spawned: 'crawl' with pid 11615
+2025-09-29 21:34:51,218 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:53,187 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:54,190 INFO spawned: 'crawl' with pid 11632
+2025-09-29 21:34:55,191 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:34:58,185 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:34:59,189 INFO spawned: 'crawl' with pid 11653
+2025-09-29 21:35:00,190 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:02,202 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:03,206 INFO spawned: 'crawl' with pid 11672
+2025-09-29 21:35:04,207 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:06,163 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:07,166 INFO spawned: 'crawl' with pid 11691
+2025-09-29 21:35:08,168 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:10,132 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:11,136 INFO spawned: 'crawl' with pid 11709
+2025-09-29 21:35:12,137 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:14,316 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:15,318 INFO spawned: 'crawl' with pid 11729
+2025-09-29 21:35:16,319 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:19,469 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:20,473 INFO spawned: 'crawl' with pid 11746
+2025-09-29 21:35:21,474 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:24,494 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:25,499 INFO spawned: 'crawl' with pid 11762
+2025-09-29 21:35:26,500 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:29,523 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:30,527 INFO spawned: 'crawl' with pid 11783
+2025-09-29 21:35:31,528 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:34,548 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:35,552 INFO spawned: 'crawl' with pid 11799
+2025-09-29 21:35:36,554 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:38,533 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:39,537 INFO spawned: 'crawl' with pid 11817
+2025-09-29 21:35:40,538 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:43,494 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:44,498 INFO spawned: 'crawl' with pid 11839
+2025-09-29 21:35:45,499 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:47,428 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:48,432 INFO spawned: 'crawl' with pid 11856
+2025-09-29 21:35:49,433 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:52,406 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:53,408 INFO spawned: 'crawl' with pid 11873
+2025-09-29 21:35:54,409 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:35:57,400 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:35:58,403 INFO spawned: 'crawl' with pid 11894
+2025-09-29 21:35:59,405 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:01,431 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:02,435 INFO spawned: 'crawl' with pid 11911
+2025-09-29 21:36:03,436 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:05,426 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:06,430 INFO spawned: 'crawl' with pid 11928
+2025-09-29 21:36:07,432 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:10,414 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:11,417 INFO spawned: 'crawl' with pid 11950
+2025-09-29 21:36:12,418 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:15,462 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:16,465 INFO spawned: 'crawl' with pid 11973
+2025-09-29 21:36:17,467 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:20,423 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:21,426 INFO spawned: 'crawl' with pid 11989
+2025-09-29 21:36:22,427 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:25,393 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:26,395 INFO spawned: 'crawl' with pid 12006
+2025-09-29 21:36:27,396 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:30,500 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:31,504 INFO spawned: 'crawl' with pid 12026
+2025-09-29 21:36:32,506 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:35,508 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:36,512 INFO spawned: 'crawl' with pid 12056
+2025-09-29 21:36:37,513 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:40,536 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:41,539 INFO spawned: 'crawl' with pid 12077
+2025-09-29 21:36:42,540 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:45,516 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:46,520 INFO spawned: 'crawl' with pid 12102
+2025-09-29 21:36:47,521 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:49,428 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:50,432 INFO spawned: 'crawl' with pid 12119
+2025-09-29 21:36:51,433 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:54,468 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:36:55,470 INFO spawned: 'crawl' with pid 12138
+2025-09-29 21:36:56,472 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:36:59,448 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:00,452 INFO spawned: 'crawl' with pid 12159
+2025-09-29 21:37:01,454 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:03,372 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:04,375 INFO spawned: 'crawl' with pid 12177
+2025-09-29 21:37:05,376 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:08,337 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:09,341 INFO spawned: 'crawl' with pid 12196
+2025-09-29 21:37:10,342 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:13,334 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:14,338 INFO spawned: 'crawl' with pid 12218
+2025-09-29 21:37:15,340 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:18,305 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:19,309 INFO spawned: 'crawl' with pid 12234
+2025-09-29 21:37:20,310 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:23,292 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:24,295 INFO spawned: 'crawl' with pid 12251
+2025-09-29 21:37:25,296 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:28,197 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:29,201 INFO spawned: 'crawl' with pid 12274
+2025-09-29 21:37:30,203 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:33,155 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:34,159 INFO spawned: 'crawl' with pid 12290
+2025-09-29 21:37:35,160 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:38,154 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:39,157 INFO spawned: 'crawl' with pid 12308
+2025-09-29 21:37:40,159 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:43,114 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:44,118 INFO spawned: 'crawl' with pid 12330
+2025-09-29 21:37:45,119 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:48,061 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:49,065 INFO spawned: 'crawl' with pid 12347
+2025-09-29 21:37:50,066 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:53,009 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:54,012 INFO spawned: 'crawl' with pid 12363
+2025-09-29 21:37:55,013 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:37:58,023 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:37:59,027 INFO spawned: 'crawl' with pid 12384
+2025-09-29 21:38:00,028 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:03,022 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:04,025 INFO spawned: 'crawl' with pid 12402
+2025-09-29 21:38:05,026 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:08,012 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:09,015 INFO spawned: 'crawl' with pid 12418
+2025-09-29 21:38:10,016 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:13,022 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:14,025 INFO spawned: 'crawl' with pid 12442
+2025-09-29 21:38:15,026 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:17,964 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:18,968 INFO spawned: 'crawl' with pid 12459
+2025-09-29 21:38:19,969 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:21,873 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:22,878 INFO spawned: 'crawl' with pid 12476
+2025-09-29 21:38:23,879 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:26,816 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:27,818 INFO spawned: 'crawl' with pid 12493
+2025-09-29 21:38:28,820 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:30,911 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:31,914 INFO spawned: 'crawl' with pid 12525
+2025-09-29 21:38:32,916 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:34,948 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:35,952 INFO spawned: 'crawl' with pid 12541
+2025-09-29 21:38:36,953 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:38,899 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:39,903 INFO spawned: 'crawl' with pid 12558
+2025-09-29 21:38:40,904 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:42,907 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:43,909 INFO spawned: 'crawl' with pid 12580
+2025-09-29 21:38:44,910 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:46,813 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:47,815 INFO spawned: 'crawl' with pid 12597
+2025-09-29 21:38:48,816 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:50,801 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:51,803 INFO spawned: 'crawl' with pid 12614
+2025-09-29 21:38:52,805 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:54,774 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:38:55,776 INFO spawned: 'crawl' with pid 12631
+2025-09-29 21:38:56,778 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:38:59,775 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:00,779 INFO spawned: 'crawl' with pid 12652
+2025-09-29 21:39:01,780 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:04,728 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:05,732 INFO spawned: 'crawl' with pid 12669
+2025-09-29 21:39:06,733 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:08,693 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:09,697 INFO spawned: 'crawl' with pid 12685
+2025-09-29 21:39:10,699 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:12,656 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:13,659 INFO spawned: 'crawl' with pid 12706
+2025-09-29 21:39:14,660 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:17,711 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:18,714 INFO spawned: 'crawl' with pid 12726
+2025-09-29 21:39:19,715 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:21,809 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:22,812 INFO spawned: 'crawl' with pid 12743
+2025-09-29 21:39:23,814 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:26,851 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:27,853 INFO spawned: 'crawl' with pid 12760
+2025-09-29 21:39:28,854 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:32,006 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:33,009 INFO spawned: 'crawl' with pid 12783
+2025-09-29 21:39:34,010 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:37,063 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:38,065 INFO spawned: 'crawl' with pid 12799
+2025-09-29 21:39:39,066 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:42,229 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:43,231 INFO spawned: 'crawl' with pid 12821
+2025-09-29 21:39:44,232 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:47,284 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:48,288 INFO spawned: 'crawl' with pid 12841
+2025-09-29 21:39:49,289 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:51,275 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:52,277 INFO spawned: 'crawl' with pid 12859
+2025-09-29 21:39:53,278 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:39:56,347 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:39:57,350 INFO spawned: 'crawl' with pid 12877
+2025-09-29 21:39:58,352 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:00,428 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:01,431 INFO spawned: 'crawl' with pid 12897
+2025-09-29 21:40:02,433 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:05,445 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:06,446 INFO spawned: 'crawl' with pid 12914
+2025-09-29 21:40:07,448 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:09,501 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:10,504 INFO spawned: 'crawl' with pid 12932
+2025-09-29 21:40:11,505 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:14,496 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:15,498 INFO spawned: 'crawl' with pid 12959
+2025-09-29 21:40:16,500 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:19,495 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:20,497 INFO spawned: 'crawl' with pid 12976
+2025-09-29 21:40:21,498 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:24,716 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:25,720 INFO spawned: 'crawl' with pid 12992
+2025-09-29 21:40:26,722 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:29,862 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:30,866 INFO spawned: 'crawl' with pid 13013
+2025-09-29 21:40:31,867 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:33,896 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:34,899 INFO spawned: 'crawl' with pid 13029
+2025-09-29 21:40:35,900 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:38,924 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:39,928 INFO spawned: 'crawl' with pid 13045
+2025-09-29 21:40:40,930 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:42,875 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:43,877 INFO spawned: 'crawl' with pid 13069
+2025-09-29 21:40:44,879 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:47,881 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:48,885 INFO spawned: 'crawl' with pid 13086
+2025-09-29 21:40:49,887 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:51,786 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:52,790 INFO spawned: 'crawl' with pid 13103
+2025-09-29 21:40:53,791 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:40:55,699 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:40:56,703 INFO spawned: 'crawl' with pid 13121
+2025-09-29 21:40:57,704 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:00,667 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:01,671 INFO spawned: 'crawl' with pid 13141
+2025-09-29 21:41:02,672 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:04,565 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:05,569 INFO spawned: 'crawl' with pid 13158
+2025-09-29 21:41:06,571 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:09,491 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:10,495 INFO spawned: 'crawl' with pid 13176
+2025-09-29 21:41:11,496 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:13,445 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:14,448 INFO spawned: 'crawl' with pid 13201
+2025-09-29 21:41:15,449 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:18,442 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:19,444 INFO spawned: 'crawl' with pid 13218
+2025-09-29 21:41:20,445 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:22,416 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:23,419 INFO spawned: 'crawl' with pid 13234
+2025-09-29 21:41:24,420 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:26,360 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:27,363 INFO spawned: 'crawl' with pid 13251
+2025-09-29 21:41:28,365 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:30,439 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:31,443 INFO spawned: 'crawl' with pid 13271
+2025-09-29 21:41:32,444 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:35,500 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:36,504 INFO spawned: 'crawl' with pid 13287
+2025-09-29 21:41:37,505 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:40,637 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:41,641 INFO spawned: 'crawl' with pid 13305
+2025-09-29 21:41:42,643 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:45,694 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:46,698 INFO spawned: 'crawl' with pid 13328
+2025-09-29 21:41:47,699 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:50,694 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:51,696 INFO spawned: 'crawl' with pid 13347
+2025-09-29 21:41:52,696 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:54,609 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:55,612 INFO spawned: 'crawl' with pid 13363
+2025-09-29 21:41:56,613 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:41:58,508 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:41:59,510 INFO spawned: 'crawl' with pid 13384
+2025-09-29 21:42:00,512 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:02,514 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:03,517 INFO spawned: 'crawl' with pid 13401
+2025-09-29 21:42:04,518 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:06,452 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:07,456 INFO spawned: 'crawl' with pid 13418
+2025-09-29 21:42:08,458 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:11,545 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:12,547 INFO spawned: 'crawl' with pid 13440
+2025-09-29 21:42:13,548 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:16,573 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:17,576 INFO spawned: 'crawl' with pid 13462
+2025-09-29 21:42:18,577 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:21,543 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:22,546 INFO spawned: 'crawl' with pid 13478
+2025-09-29 21:42:23,548 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:26,617 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:27,621 INFO spawned: 'crawl' with pid 13496
+2025-09-29 21:42:28,622 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:30,689 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:31,692 INFO spawned: 'crawl' with pid 13528
+2025-09-29 21:42:32,693 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:34,654 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:35,657 INFO spawned: 'crawl' with pid 13568
+2025-09-29 21:42:36,658 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:38,655 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:39,659 INFO spawned: 'crawl' with pid 13584
+2025-09-29 21:42:40,660 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:43,670 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:44,674 INFO spawned: 'crawl' with pid 13608
+2025-09-29 21:42:45,675 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:48,663 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:49,666 INFO spawned: 'crawl' with pid 13625
+2025-09-29 21:42:50,667 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:53,674 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:54,678 INFO spawned: 'crawl' with pid 13642
+2025-09-29 21:42:55,679 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:42:58,665 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:42:59,667 INFO spawned: 'crawl' with pid 13664
+2025-09-29 21:43:00,669 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:03,737 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:04,741 INFO spawned: 'crawl' with pid 13680
+2025-09-29 21:43:05,742 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:08,794 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:09,798 INFO spawned: 'crawl' with pid 13696
+2025-09-29 21:43:10,799 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:13,794 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:14,797 INFO spawned: 'crawl' with pid 13719
+2025-09-29 21:43:15,799 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:18,831 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:19,835 INFO spawned: 'crawl' with pid 13738
+2025-09-29 21:43:20,836 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:22,794 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:23,796 INFO spawned: 'crawl' with pid 13754
+2025-09-29 21:43:24,798 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:26,747 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:27,751 INFO spawned: 'crawl' with pid 13771
+2025-09-29 21:43:28,752 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:30,717 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:31,721 INFO spawned: 'crawl' with pid 13791
+2025-09-29 21:43:32,723 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:35,686 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:36,689 INFO spawned: 'crawl' with pid 13807
+2025-09-29 21:43:37,691 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:40,640 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:41,644 INFO spawned: 'crawl' with pid 13824
+2025-09-29 21:43:42,645 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:45,620 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:46,623 INFO spawned: 'crawl' with pid 13847
+2025-09-29 21:43:47,624 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:50,517 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:51,520 INFO spawned: 'crawl' with pid 13864
+2025-09-29 21:43:52,522 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:54,444 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:55,447 INFO spawned: 'crawl' with pid 13881
+2025-09-29 21:43:56,449 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:43:58,363 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:43:59,365 INFO spawned: 'crawl' with pid 13903
+2025-09-29 21:44:00,367 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:02,310 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:03,313 INFO spawned: 'crawl' with pid 13919
+2025-09-29 21:44:04,315 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:06,266 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:07,269 INFO spawned: 'crawl' with pid 13935
+2025-09-29 21:44:08,271 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:10,207 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:11,210 INFO spawned: 'crawl' with pid 13953
+2025-09-29 21:44:12,211 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:15,105 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:16,108 INFO spawned: 'crawl' with pid 13976
+2025-09-29 21:44:17,109 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:20,042 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:21,046 INFO spawned: 'crawl' with pid 13994
+2025-09-29 21:44:22,047 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:23,951 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:24,955 INFO spawned: 'crawl' with pid 14012
+2025-09-29 21:44:25,956 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:27,886 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:28,890 INFO spawned: 'crawl' with pid 14029
+2025-09-29 21:44:29,892 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:31,872 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:32,876 INFO spawned: 'crawl' with pid 14049
+2025-09-29 21:44:33,877 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:35,820 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:36,823 INFO spawned: 'crawl' with pid 14065
+2025-09-29 21:44:37,825 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:39,792 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:40,795 INFO spawned: 'crawl' with pid 14081
+2025-09-29 21:44:41,797 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:43,753 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:44,756 INFO spawned: 'crawl' with pid 14104
+2025-09-29 21:44:45,758 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:47,676 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:48,679 INFO spawned: 'crawl' with pid 14123
+2025-09-29 21:44:49,681 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:51,550 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:52,554 INFO spawned: 'crawl' with pid 14140
+2025-09-29 21:44:53,555 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:44:56,484 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:44:57,487 INFO spawned: 'crawl' with pid 14158
+2025-09-29 21:44:58,489 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:01,471 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:02,475 INFO spawned: 'crawl' with pid 14181
+2025-09-29 21:45:03,477 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:06,412 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:07,415 INFO spawned: 'crawl' with pid 14197
+2025-09-29 21:45:08,416 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:11,418 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:12,422 INFO spawned: 'crawl' with pid 14216
+2025-09-29 21:45:13,423 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:16,419 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:17,423 INFO spawned: 'crawl' with pid 14237
+2025-09-29 21:45:18,424 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:20,376 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:21,380 INFO spawned: 'crawl' with pid 14254
+2025-09-29 21:45:22,381 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:25,310 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:26,314 INFO spawned: 'crawl' with pid 14270
+2025-09-29 21:45:27,315 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:30,250 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:31,253 INFO spawned: 'crawl' with pid 14291
+2025-09-29 21:45:32,255 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:34,213 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:35,216 INFO spawned: 'crawl' with pid 14307
+2025-09-29 21:45:36,217 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:39,150 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:40,154 INFO spawned: 'crawl' with pid 14323
+2025-09-29 21:45:41,155 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:43,074 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:44,077 INFO spawned: 'crawl' with pid 14343
+2025-09-29 21:45:45,079 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:48,041 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:49,045 INFO spawned: 'crawl' with pid 14367
+2025-09-29 21:45:50,047 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:52,011 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:53,015 INFO spawned: 'crawl' with pid 14384
+2025-09-29 21:45:54,016 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:45:55,921 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:45:56,925 INFO spawned: 'crawl' with pid 14402
+2025-09-29 21:45:57,927 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:00,989 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:01,993 INFO spawned: 'crawl' with pid 14422
+2025-09-29 21:46:02,994 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:04,930 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:05,934 INFO spawned: 'crawl' with pid 14438
+2025-09-29 21:46:06,935 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:09,859 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:10,863 INFO spawned: 'crawl' with pid 14456
+2025-09-29 21:46:11,864 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:13,805 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:14,808 INFO spawned: 'crawl' with pid 14477
+2025-09-29 21:46:15,809 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:18,766 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:19,769 INFO spawned: 'crawl' with pid 14496
+2025-09-29 21:46:20,770 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:22,715 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:23,718 INFO spawned: 'crawl' with pid 14512
+2025-09-29 21:46:24,719 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:27,682 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:28,686 INFO spawned: 'crawl' with pid 14529
+2025-09-29 21:46:29,688 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:32,653 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:33,657 INFO spawned: 'crawl' with pid 14549
+2025-09-29 21:46:34,658 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:37,602 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:38,604 INFO spawned: 'crawl' with pid 14568
+2025-09-29 21:46:39,605 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:42,534 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:43,538 INFO spawned: 'crawl' with pid 14593
+2025-09-29 21:46:44,538 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:46,530 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:47,534 INFO spawned: 'crawl' with pid 14621
+2025-09-29 21:46:48,535 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:50,511 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:51,515 INFO spawned: 'crawl' with pid 14640
+2025-09-29 21:46:52,516 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:46:55,465 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:46:56,468 INFO spawned: 'crawl' with pid 14659
+2025-09-29 21:46:57,470 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:00,425 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:01,429 INFO spawned: 'crawl' with pid 14681
+2025-09-29 21:47:02,430 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:04,351 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:05,355 INFO spawned: 'crawl' with pid 14698
+2025-09-29 21:47:06,356 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:08,340 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:09,343 INFO spawned: 'crawl' with pid 14715
+2025-09-29 21:47:10,344 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:13,304 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:14,308 INFO spawned: 'crawl' with pid 14734
+2025-09-29 21:47:15,309 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:17,304 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:18,308 INFO spawned: 'crawl' with pid 14754
+2025-09-29 21:47:19,310 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:21,255 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:22,258 INFO spawned: 'crawl' with pid 14772
+2025-09-29 21:47:23,259 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:25,231 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:26,234 INFO spawned: 'crawl' with pid 14789
+2025-09-29 21:47:27,236 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:29,159 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:30,162 INFO spawned: 'crawl' with pid 14810
+2025-09-29 21:47:31,163 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:33,118 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:34,121 INFO spawned: 'crawl' with pid 14826
+2025-09-29 21:47:35,123 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:37,097 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:38,100 INFO spawned: 'crawl' with pid 14842
+2025-09-29 21:47:39,101 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:42,053 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:43,058 INFO spawned: 'crawl' with pid 14859
+2025-09-29 21:47:44,059 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:46,039 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:47,041 INFO spawned: 'crawl' with pid 14881
+2025-09-29 21:47:48,042 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:49,967 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:50,970 INFO spawned: 'crawl' with pid 14899
+2025-09-29 21:47:51,972 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:54,928 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:55,932 INFO spawned: 'crawl' with pid 14917
+2025-09-29 21:47:56,933 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:47:58,885 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:47:59,888 INFO spawned: 'crawl' with pid 14939
+2025-09-29 21:48:00,889 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:02,833 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:03,837 INFO spawned: 'crawl' with pid 14955
+2025-09-29 21:48:04,838 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:06,777 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:07,780 INFO spawned: 'crawl' with pid 14971
+2025-09-29 21:48:08,781 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:11,753 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:12,757 INFO spawned: 'crawl' with pid 14990
+2025-09-29 21:48:13,758 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:15,769 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:16,773 INFO spawned: 'crawl' with pid 15010
+2025-09-29 21:48:17,775 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:20,725 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:21,729 INFO spawned: 'crawl' with pid 15028
+2025-09-29 21:48:22,731 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:24,679 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:25,683 INFO spawned: 'crawl' with pid 15044
+2025-09-29 21:48:26,685 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:28,604 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:29,607 INFO spawned: 'crawl' with pid 15062
+2025-09-29 21:48:30,608 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:32,569 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:33,573 INFO spawned: 'crawl' with pid 15082
+2025-09-29 21:48:34,575 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:37,511 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:38,514 INFO spawned: 'crawl' with pid 15098
+2025-09-29 21:48:39,515 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:42,489 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:43,492 INFO spawned: 'crawl' with pid 15116
+2025-09-29 21:48:44,493 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:46,490 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:47,494 INFO spawned: 'crawl' with pid 15137
+2025-09-29 21:48:48,495 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:50,427 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:51,431 INFO spawned: 'crawl' with pid 15154
+2025-09-29 21:48:52,433 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:55,403 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:48:56,407 INFO spawned: 'crawl' with pid 15173
+2025-09-29 21:48:57,409 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:48:59,366 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:00,368 INFO spawned: 'crawl' with pid 15195
+2025-09-29 21:49:01,369 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:04,308 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:05,312 INFO spawned: 'crawl' with pid 15211
+2025-09-29 21:49:06,313 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:09,262 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:10,265 INFO spawned: 'crawl' with pid 15227
+2025-09-29 21:49:11,266 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:14,218 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:15,221 INFO spawned: 'crawl' with pid 15249
+2025-09-29 21:49:16,222 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:19,156 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:20,160 INFO spawned: 'crawl' with pid 15266
+2025-09-29 21:49:21,161 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:24,131 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:25,135 INFO spawned: 'crawl' with pid 15285
+2025-09-29 21:49:26,136 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:28,105 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:29,109 INFO spawned: 'crawl' with pid 15302
+2025-09-29 21:49:30,110 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:32,083 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:33,087 INFO spawned: 'crawl' with pid 15322
+2025-09-29 21:49:34,088 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:36,054 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:37,058 INFO spawned: 'crawl' with pid 15338
+2025-09-29 21:49:38,059 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:40,015 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:41,018 INFO spawned: 'crawl' with pid 15354
+2025-09-29 21:49:42,019 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:44,950 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:45,953 INFO spawned: 'crawl' with pid 15377
+2025-09-29 21:49:46,955 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:49,944 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:50,948 INFO spawned: 'crawl' with pid 15394
+2025-09-29 21:49:51,949 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:53,937 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:54,941 INFO spawned: 'crawl' with pid 15413
+2025-09-29 21:49:55,942 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:49:58,929 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:49:59,933 INFO spawned: 'crawl' with pid 15432
+2025-09-29 21:50:00,935 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:02,895 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:03,899 INFO spawned: 'crawl' with pid 15451
+2025-09-29 21:50:04,900 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:07,844 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:08,848 INFO spawned: 'crawl' with pid 15471
+2025-09-29 21:50:09,850 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:11,793 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:12,797 INFO spawned: 'crawl' with pid 15490
+2025-09-29 21:50:13,798 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:15,836 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:16,839 INFO spawned: 'crawl' with pid 15510
+2025-09-29 21:50:17,841 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:19,768 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:20,772 INFO spawned: 'crawl' with pid 15526
+2025-09-29 21:50:21,773 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:24,756 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:25,759 INFO spawned: 'crawl' with pid 15550
+2025-09-29 21:50:26,760 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:29,789 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:30,792 INFO spawned: 'crawl' with pid 15573
+2025-09-29 21:50:31,793 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:34,787 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:35,790 INFO spawned: 'crawl' with pid 15626
+2025-09-29 21:50:36,791 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:38,840 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:39,844 INFO spawned: 'crawl' with pid 15653
+2025-09-29 21:50:40,845 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:43,813 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:44,815 INFO spawned: 'crawl' with pid 15675
+2025-09-29 21:50:45,816 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:47,866 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:48,870 INFO spawned: 'crawl' with pid 15697
+2025-09-29 21:50:49,871 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:52,806 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:53,809 INFO spawned: 'crawl' with pid 15714
+2025-09-29 21:50:54,810 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:50:57,956 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:50:58,958 INFO spawned: 'crawl' with pid 15766
+2025-09-29 21:50:59,960 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:02,074 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:03,077 INFO spawned: 'crawl' with pid 15785
+2025-09-29 21:51:04,078 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:07,181 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:08,184 INFO spawned: 'crawl' with pid 15804
+2025-09-29 21:51:09,185 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:12,327 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:13,331 INFO spawned: 'crawl' with pid 15853
+2025-09-29 21:51:14,333 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:16,310 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:17,314 INFO spawned: 'crawl' with pid 15874
+2025-09-29 21:51:18,315 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:21,277 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:22,281 INFO spawned: 'crawl' with pid 15889
+2025-09-29 21:51:23,283 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:26,303 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:27,305 INFO spawned: 'crawl' with pid 15911
+2025-09-29 21:51:28,306 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:31,316 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:32,320 INFO spawned: 'crawl' with pid 15927
+2025-09-29 21:51:33,321 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:35,338 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:36,341 INFO spawned: 'crawl' with pid 15942
+2025-09-29 21:51:37,343 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:39,595 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:40,599 INFO spawned: 'crawl' with pid 15963
+2025-09-29 21:51:41,600 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:43,600 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:44,603 INFO spawned: 'crawl' with pid 15982
+2025-09-29 21:51:45,604 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:48,551 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:49,555 INFO spawned: 'crawl' with pid 15999
+2025-09-29 21:51:50,556 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:53,635 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:54,637 INFO spawned: 'crawl' with pid 16029
+2025-09-29 21:51:55,638 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:51:58,780 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:51:59,782 INFO spawned: 'crawl' with pid 16070
+2025-09-29 21:52:00,783 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:03,311 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:04,313 INFO spawned: 'crawl' with pid 16133
+2025-09-29 21:52:05,314 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:07,412 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:08,416 INFO spawned: 'crawl' with pid 16151
+2025-09-29 21:52:09,417 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:11,404 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:12,407 INFO spawned: 'crawl' with pid 16169
+2025-09-29 21:52:13,408 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:15,437 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:16,441 INFO spawned: 'crawl' with pid 16184
+2025-09-29 21:52:17,442 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:19,497 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:20,501 INFO spawned: 'crawl' with pid 16200
+2025-09-29 21:52:21,502 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:23,444 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:24,448 INFO spawned: 'crawl' with pid 16215
+2025-09-29 21:52:25,450 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:28,467 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:29,470 INFO spawned: 'crawl' with pid 16234
+2025-09-29 21:52:30,471 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:32,458 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:33,462 INFO spawned: 'crawl' with pid 16249
+2025-09-29 21:52:34,463 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:37,418 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:38,421 INFO spawned: 'crawl' with pid 16264
+2025-09-29 21:52:39,422 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:41,396 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:42,400 INFO spawned: 'crawl' with pid 16280
+2025-09-29 21:52:43,401 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:46,387 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:47,390 INFO spawned: 'crawl' with pid 16298
+2025-09-29 21:52:48,391 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:50,642 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:51,646 INFO spawned: 'crawl' with pid 16314
+2025-09-29 21:52:52,647 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:52:55,761 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:52:56,764 INFO spawned: 'crawl' with pid 16332
+2025-09-29 21:52:57,765 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:01,890 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:02,894 INFO spawned: 'crawl' with pid 16358
+2025-09-29 21:53:03,895 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:06,939 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:07,943 INFO spawned: 'crawl' with pid 16373
+2025-09-29 21:53:08,944 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:11,949 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:12,952 INFO spawned: 'crawl' with pid 16391
+2025-09-29 21:53:13,953 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:17,020 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:18,023 INFO spawned: 'crawl' with pid 16408
+2025-09-29 21:53:19,024 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:22,057 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:23,060 INFO spawned: 'crawl' with pid 16427
+2025-09-29 21:53:24,061 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:26,141 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:27,142 INFO spawned: 'crawl' with pid 16443
+2025-09-29 21:53:28,144 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:30,186 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:31,188 INFO spawned: 'crawl' with pid 16464
+2025-09-29 21:53:32,189 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:35,310 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:36,312 INFO spawned: 'crawl' with pid 16480
+2025-09-29 21:53:37,313 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:40,306 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:41,309 INFO spawned: 'crawl' with pid 16495
+2025-09-29 21:53:42,310 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:45,239 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:46,242 INFO spawned: 'crawl' with pid 16514
+2025-09-29 21:53:47,243 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:50,211 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:51,215 INFO spawned: 'crawl' with pid 16530
+2025-09-29 21:53:52,216 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:54,283 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:53:55,286 INFO spawned: 'crawl' with pid 16550
+2025-09-29 21:53:56,288 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:53:59,314 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:00,318 INFO spawned: 'crawl' with pid 16570
+2025-09-29 21:54:01,319 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:04,286 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:05,290 INFO spawned: 'crawl' with pid 16585
+2025-09-29 21:54:06,292 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:09,288 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:10,290 INFO spawned: 'crawl' with pid 16605
+2025-09-29 21:54:11,292 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:14,437 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:15,440 INFO spawned: 'crawl' with pid 16626
+2025-09-29 21:54:16,441 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:19,573 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:20,576 INFO spawned: 'crawl' with pid 16643
+2025-09-29 21:54:21,578 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:24,562 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:25,566 INFO spawned: 'crawl' with pid 16662
+2025-09-29 21:54:26,568 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:29,533 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:30,537 INFO spawned: 'crawl' with pid 16682
+2025-09-29 21:54:31,539 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:34,643 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:35,646 INFO spawned: 'crawl' with pid 16704
+2025-09-29 21:54:36,646 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:39,861 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:40,864 INFO spawned: 'crawl' with pid 16719
+2025-09-29 21:54:41,865 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:44,974 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:45,977 INFO spawned: 'crawl' with pid 16738
+2025-09-29 21:54:46,979 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:49,068 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:50,071 INFO spawned: 'crawl' with pid 16754
+2025-09-29 21:54:51,073 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:54,140 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:55,144 INFO spawned: 'crawl' with pid 16771
+2025-09-29 21:54:56,145 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:54:58,259 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:54:59,263 INFO spawned: 'crawl' with pid 16793
+2025-09-29 21:55:00,264 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:02,259 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:03,263 INFO spawned: 'crawl' with pid 16812
+2025-09-29 21:55:04,264 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:07,338 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:08,341 INFO spawned: 'crawl' with pid 16827
+2025-09-29 21:55:09,343 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:12,303 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:13,307 INFO spawned: 'crawl' with pid 16848
+2025-09-29 21:55:14,308 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:17,256 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:18,259 INFO spawned: 'crawl' with pid 16864
+2025-09-29 21:55:19,261 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:22,555 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:23,559 INFO spawned: 'crawl' with pid 16892
+2025-09-29 21:55:24,560 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:27,673 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:28,676 INFO spawned: 'crawl' with pid 16909
+2025-09-29 21:55:29,678 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:32,725 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:33,729 INFO spawned: 'crawl' with pid 16926
+2025-09-29 21:55:34,730 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:36,812 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:37,816 INFO spawned: 'crawl' with pid 16941
+2025-09-29 21:55:38,817 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:41,870 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:42,874 INFO spawned: 'crawl' with pid 16957
+2025-09-29 21:55:43,875 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:46,995 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:47,999 INFO spawned: 'crawl' with pid 16973
+2025-09-29 21:55:49,000 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:52,145 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:53,148 INFO spawned: 'crawl' with pid 16990
+2025-09-29 21:55:54,149 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:55:56,182 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:55:57,185 INFO spawned: 'crawl' with pid 17011
+2025-09-29 21:55:58,186 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:01,238 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:02,242 INFO spawned: 'crawl' with pid 17030
+2025-09-29 21:56:03,243 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:06,284 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:07,287 INFO spawned: 'crawl' with pid 17045
+2025-09-29 21:56:08,288 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:11,268 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:12,272 INFO spawned: 'crawl' with pid 17068
+2025-09-29 21:56:13,273 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:16,918 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:17,922 INFO spawned: 'crawl' with pid 17094
+2025-09-29 21:56:18,923 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:21,890 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:22,894 INFO spawned: 'crawl' with pid 17109
+2025-09-29 21:56:23,895 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:27,024 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:28,028 INFO spawned: 'crawl' with pid 17130
+2025-09-29 21:56:29,029 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:31,141 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:32,145 INFO spawned: 'crawl' with pid 17148
+2025-09-29 21:56:33,147 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:36,268 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:37,271 INFO spawned: 'crawl' with pid 17164
+2025-09-29 21:56:38,272 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:40,444 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:41,448 INFO spawned: 'crawl' with pid 17184
+2025-09-29 21:56:42,450 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:45,413 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:46,417 INFO spawned: 'crawl' with pid 17206
+2025-09-29 21:56:47,418 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:50,608 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:51,612 INFO spawned: 'crawl' with pid 17238
+2025-09-29 21:56:52,614 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:56:55,920 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:56:56,923 INFO spawned: 'crawl' with pid 17261
+2025-09-29 21:56:57,924 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:00,999 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:02,003 INFO spawned: 'crawl' with pid 17280
+2025-09-29 21:57:03,004 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:06,183 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:07,187 INFO spawned: 'crawl' with pid 17301
+2025-09-29 21:57:08,189 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:10,152 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:11,156 INFO spawned: 'crawl' with pid 17320
+2025-09-29 21:57:12,157 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:15,157 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:16,161 INFO spawned: 'crawl' with pid 17337
+2025-09-29 21:57:17,163 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:20,369 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:21,373 INFO spawned: 'crawl' with pid 17354
+2025-09-29 21:57:22,374 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:25,570 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:26,573 INFO spawned: 'crawl' with pid 17371
+2025-09-29 21:57:27,574 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:30,758 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:31,761 INFO spawned: 'crawl' with pid 17399
+2025-09-29 21:57:32,173 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:33,175 INFO spawned: 'crawl' with pid 17411
+2025-09-29 21:57:33,737 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:35,741 INFO spawned: 'crawl' with pid 17426
+2025-09-29 21:57:36,743 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:39,770 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:40,774 INFO spawned: 'crawl' with pid 17442
+2025-09-29 21:57:41,775 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:44,789 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:45,791 INFO spawned: 'crawl' with pid 17461
+2025-09-29 21:57:46,792 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:48,728 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:49,732 INFO spawned: 'crawl' with pid 17479
+2025-09-29 21:57:50,733 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:53,882 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:54,885 INFO spawned: 'crawl' with pid 17500
+2025-09-29 21:57:55,887 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:57:58,904 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:57:59,907 INFO spawned: 'crawl' with pid 17520
+2025-09-29 21:58:00,908 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:03,923 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:04,927 INFO spawned: 'crawl' with pid 17539
+2025-09-29 21:58:05,928 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:09,189 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:10,193 INFO spawned: 'crawl' with pid 17561
+2025-09-29 21:58:11,195 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:14,164 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:15,167 INFO spawned: 'crawl' with pid 17580
+2025-09-29 21:58:16,168 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:19,266 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:20,270 INFO spawned: 'crawl' with pid 17598
+2025-09-29 21:58:21,271 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:24,315 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:25,318 INFO spawned: 'crawl' with pid 17614
+2025-09-29 21:58:26,319 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:29,349 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:30,353 INFO spawned: 'crawl' with pid 17632
+2025-09-29 21:58:31,354 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:33,463 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:34,466 INFO spawned: 'crawl' with pid 17652
+2025-09-29 21:58:35,467 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:38,561 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:39,564 INFO spawned: 'crawl' with pid 17672
+2025-09-29 21:58:40,565 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:42,764 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:43,767 INFO spawned: 'crawl' with pid 17690
+2025-09-29 21:58:44,769 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:47,769 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:48,771 INFO spawned: 'crawl' with pid 17709
+2025-09-29 21:58:49,772 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:52,780 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:53,783 INFO spawned: 'crawl' with pid 17727
+2025-09-29 21:58:54,785 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:58:57,791 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:58:58,794 INFO spawned: 'crawl' with pid 17744
+2025-09-29 21:58:59,795 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:02,991 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:03,995 INFO spawned: 'crawl' with pid 17773
+2025-09-29 21:59:04,996 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:08,107 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:09,110 INFO spawned: 'crawl' with pid 17794
+2025-09-29 21:59:10,111 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:13,184 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:14,187 INFO spawned: 'crawl' with pid 18044
+2025-09-29 21:59:15,189 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:17,560 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:18,562 INFO spawned: 'crawl' with pid 18198
+2025-09-29 21:59:19,563 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:22,180 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:23,182 INFO spawned: 'crawl' with pid 18376
+2025-09-29 21:59:24,183 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:27,423 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:28,425 INFO spawned: 'crawl' with pid 18397
+2025-09-29 21:59:29,426 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:31,578 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:32,580 INFO spawned: 'crawl' with pid 18415
+2025-09-29 21:59:33,582 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:36,612 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:37,614 INFO spawned: 'crawl' with pid 18433
+2025-09-29 21:59:38,616 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:41,017 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:42,018 INFO spawned: 'crawl' with pid 18454
+2025-09-29 21:59:43,019 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:46,243 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:47,247 INFO spawned: 'crawl' with pid 18476
+2025-09-29 21:59:48,248 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:50,265 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:51,268 INFO spawned: 'crawl' with pid 18494
+2025-09-29 21:59:52,269 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 21:59:55,564 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 21:59:56,567 INFO spawned: 'crawl' with pid 18517
+2025-09-29 21:59:57,568 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:00,663 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:01,666 INFO spawned: 'crawl' with pid 18548
+2025-09-29 22:00:02,668 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:05,912 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:06,917 INFO spawned: 'crawl' with pid 18570
+2025-09-29 22:00:07,918 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:10,925 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:11,928 INFO spawned: 'crawl' with pid 18589
+2025-09-29 22:00:12,930 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:15,959 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:16,961 INFO spawned: 'crawl' with pid 18605
+2025-09-29 22:00:17,962 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:20,008 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:21,011 INFO spawned: 'crawl' with pid 18626
+2025-09-29 22:00:22,012 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:23,972 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:24,975 INFO spawned: 'crawl' with pid 18643
+2025-09-29 22:00:25,977 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:27,996 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:29,000 INFO spawned: 'crawl' with pid 18661
+2025-09-29 22:00:30,002 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:33,174 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:34,178 INFO spawned: 'crawl' with pid 18682
+2025-09-29 22:00:35,179 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:38,165 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:39,169 INFO spawned: 'crawl' with pid 18701
+2025-09-29 22:00:40,170 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:42,223 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:43,227 INFO spawned: 'crawl' with pid 18718
+2025-09-29 22:00:44,228 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:47,165 WARN exited: crawl (exit status 1; not expected)
+2025-09-29 22:00:48,168 INFO spawned: 'crawl' with pid 18740
+2025-09-29 22:00:49,169 INFO success: crawl entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-29 22:00:50,521 INFO waiting for crawl to stop
+2025-09-29 22:00:50,532 WARN stopped: crawl (terminated by SIGTERM)

@@ -275,3 +275,686 @@
 2025-09-29 16:07:57,442 WARNING: Lỗi HTTP 429 - product id: 15694485, thử lại 1/3
 2025-09-29 16:07:57,933 WARNING: Lỗi HTTP 429 - product id: 15778664, thử lại 1/3
 2025-09-29 16:07:58,029 WARNING: Lỗi HTTP 429 - product id: 15791843, thử lại 1/3
+2025-09-29 16:07:59,375 WARNING: Lỗi HTTP 429 - product id: 16096482, thử lại 1/3
+2025-09-29 16:08:00,895 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 16197757
+2025-09-29 16:08:01,599 WARNING: Lỗi HTTP 429 - product id: 16374750, thử lại 1/3
+2025-09-29 16:08:01,892 WARNING: Lỗi HTTP 429 - product id: 16375435, thử lại 1/3
+2025-09-29 16:08:05,020 WARNING: Lỗi HTTP 429 - product id: 15574594, thử lại 1/3
+2025-09-29 16:08:05,424 WARNING: Lỗi HTTP 429 - product id: 15628836, thử lại 1/3
+2025-09-29 16:08:08,229 WARNING: Lỗi HTTP 429 - product id: 16201515, thử lại 1/3
+2025-09-29 16:08:08,289 WARNING: Lỗi HTTP 429 - product id: 16203284, thử lại 1/3
+2025-09-29 16:08:08,812 WARNING: Lỗi HTTP 429 - product id: 15628836, thử lại 2/3
+2025-09-29 16:08:08,923 WARNING: Lỗi HTTP 429 - product id: 16313682, thử lại 1/3
+2025-09-29 16:08:08,967 WARNING: Lỗi HTTP 429 - product id: 16317553, thử lại 1/3
+2025-09-29 16:08:09,004 WARNING: Lỗi HTTP 429 - product id: 16325601, thử lại 1/3
+2025-09-29 16:08:09,024 WARNING: Lỗi HTTP 429 - product id: 16330401, thử lại 1/3
+2025-09-29 16:08:09,057 WARNING: Lỗi HTTP 429 - product id: 16313712, thử lại 1/3
+2025-09-29 16:08:09,439 WARNING: Lỗi HTTP 429 - product id: 16374953, thử lại 1/3
+2025-09-29 16:08:09,889 WARNING: Lỗi HTTP 429 - product id: 16375310, thử lại 1/3
+2025-09-29 16:08:10,421 WARNING: Lỗi HTTP 429 - product id: 14982103, thử lại 1/3
+2025-09-29 16:08:10,428 WARNING: Lỗi HTTP 429 - product id: 14989743, thử lại 1/3
+2025-09-29 16:08:10,452 WARNING: Lỗi HTTP 429 - product id: 14992443, thử lại 1/3
+2025-09-29 16:08:10,453 WARNING: Lỗi HTTP 429 - product id: 14992132, thử lại 1/3
+2025-09-29 16:08:10,464 WARNING: Lỗi HTTP 429 - product id: 14993103, thử lại 1/3
+2025-09-29 16:08:15,388 INFO: Đã commit batch 9 (1000 sản phẩm)
+2025-09-29 16:08:15,423 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_9_999_ids.csv
+2025-09-29 16:08:15,455 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_9_999_ids.csv vào database PostgeSQL
+2025-09-29 16:08:15,496 INFO: Bắt đầu crawl batch 10 (1000 sản phẩm)
+2025-09-29 16:08:16,143 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 16753510
+2025-09-29 16:08:19,017 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 17928527
+2025-09-29 16:08:22,170 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 19562427
+2025-09-29 16:08:22,174 WARNING: Lỗi HTTP 429 - product id: 16375536, thử lại 1/3
+2025-09-29 16:08:23,632 WARNING: Lỗi HTTP 429 - product id: 16666996, thử lại 1/3
+2025-09-29 16:08:25,178 WARNING: Lỗi HTTP 429 - product id: 17010432, thử lại 1/3
+2025-09-29 16:08:26,763 WARNING: Lỗi HTTP 429 - product id: 17897387, thử lại 1/3
+2025-09-29 16:08:27,025 WARNING: Lỗi HTTP 429 - product id: 17940496, thử lại 1/3
+2025-09-29 16:08:27,130 WARNING: Lỗi HTTP 429 - product id: 17948752, thử lại 1/3
+2025-09-29 16:08:27,235 WARNING: Lỗi HTTP 429 - product id: 17972289, thử lại 1/3
+2025-09-29 16:08:27,245 WARNING: Lỗi HTTP 429 - product id: 17974116, thử lại 1/3
+2025-09-29 16:08:27,408 WARNING: Lỗi HTTP 429 - product id: 18011684, thử lại 1/3
+2025-09-29 16:08:28,229 WARNING: Lỗi HTTP 429 - product id: 19347527, thử lại 1/3
+2025-09-29 16:08:28,843 WARNING: Lỗi HTTP 429 - product id: 19400910, thử lại 1/3
+2025-09-29 16:08:28,956 WARNING: Lỗi HTTP 429 - product id: 19415863, thử lại 1/3
+2025-09-29 16:08:29,765 WARNING: Lỗi HTTP 429 - product id: 19605823, thử lại 1/3
+2025-09-29 16:08:29,774 WARNING: Lỗi HTTP 429 - product id: 19605968, thử lại 1/3
+2025-09-29 16:08:29,803 WARNING: Lỗi HTTP 429 - product id: 19597889, thử lại 1/3
+2025-09-29 16:08:29,849 WARNING: Lỗi HTTP 429 - product id: 19617077, thử lại 1/3
+2025-09-29 16:08:30,017 WARNING: Lỗi HTTP 429 - product id: 19641419, thử lại 1/3
+2025-09-29 16:08:30,079 WARNING: Lỗi HTTP 429 - product id: 19645715, thử lại 1/3
+2025-09-29 16:08:30,564 WARNING: Lỗi HTTP 429 - product id: 19698324, thử lại 1/3
+2025-09-29 16:08:30,659 WARNING: Lỗi HTTP 429 - product id: 16379044, thử lại 1/3
+2025-09-29 16:08:31,123 WARNING: Lỗi HTTP 429 - product id: 16551260, thử lại 1/3
+2025-09-29 16:08:34,318 INFO: Đã commit batch 10 (1000 sản phẩm)
+2025-09-29 16:08:34,357 INFO: Đã ghi 997 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_10_997_ids.csv
+2025-09-29 16:08:34,396 INFO: Đã insert 997 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_10_997_ids.csv vào database PostgeSQL
+2025-09-29 16:08:34,436 INFO: Bắt đầu crawl batch 11 (1000 sản phẩm)
+2025-09-29 16:08:35,869 WARNING: Lỗi HTTP 429 - product id: 20102643, thử lại 1/3
+2025-09-29 16:08:35,922 WARNING: Lỗi HTTP 429 - product id: 20102687, thử lại 1/3
+2025-09-29 16:08:36,121 WARNING: Lỗi HTTP 429 - product id: 20102727, thử lại 1/3
+2025-09-29 16:08:36,150 WARNING: Lỗi HTTP 429 - product id: 20103839, thử lại 1/3
+2025-09-29 16:08:36,208 WARNING: Lỗi HTTP 429 - product id: 20106619, thử lại 1/3
+2025-09-29 16:08:36,260 WARNING: Lỗi HTTP 429 - product id: 20102697, thử lại 1/3
+2025-09-29 16:08:36,358 WARNING: Lỗi HTTP 429 - product id: 20148037, thử lại 1/3
+2025-09-29 16:08:36,364 WARNING: Lỗi HTTP 429 - product id: 20148303, thử lại 1/3
+2025-09-29 16:08:36,367 WARNING: Lỗi HTTP 429 - product id: 20143198, thử lại 1/3
+2025-09-29 16:08:36,468 WARNING: Lỗi HTTP 429 - product id: 20161387, thử lại 1/3
+2025-09-29 16:08:39,542 WARNING: Lỗi HTTP 429 - product id: 20106619, thử lại 2/3
+2025-09-29 16:08:39,754 WARNING: Lỗi HTTP 429 - product id: 20102697, thử lại 2/3
+2025-09-29 16:08:44,127 WARNING: Lỗi HTTP 429 - product id: 20075160, thử lại 1/3
+2025-09-29 16:08:44,227 WARNING: Lỗi HTTP 429 - product id: 20076121, thử lại 1/3
+2025-09-29 16:08:44,265 WARNING: Lỗi HTTP 429 - product id: 20076109, thử lại 1/3
+2025-09-29 16:08:44,464 WARNING: Lỗi HTTP 429 - product id: 20124188, thử lại 1/3
+2025-09-29 16:08:44,488 WARNING: Lỗi HTTP 429 - product id: 20138501, thử lại 1/3
+2025-09-29 16:08:44,498 WARNING: Lỗi HTTP 429 - product id: 20137176, thử lại 1/3
+2025-09-29 16:08:44,614 WARNING: Lỗi HTTP 429 - product id: 20148843, thử lại 1/3
+2025-09-29 16:08:44,860 WARNING: Lỗi HTTP 429 - product id: 20198295, thử lại 1/3
+2025-09-29 16:08:44,875 WARNING: Lỗi HTTP 429 - product id: 20200189, thử lại 1/3
+2025-09-29 16:08:44,991 WARNING: Lỗi HTTP 429 - product id: 20213965, thử lại 1/3
+2025-09-29 16:08:44,991 WARNING: Lỗi HTTP 429 - product id: 20224782, thử lại 1/3
+2025-09-29 16:08:45,006 WARNING: Lỗi HTTP 429 - product id: 20224926, thử lại 1/3
+2025-09-29 16:08:45,059 WARNING: Lỗi HTTP 429 - product id: 20243744, thử lại 1/3
+2025-09-29 16:08:45,059 WARNING: Lỗi HTTP 429 - product id: 20244401, thử lại 1/3
+2025-09-29 16:08:45,121 WARNING: Lỗi HTTP 429 - product id: 20267467, thử lại 1/3
+2025-09-29 16:08:45,212 WARNING: Lỗi HTTP 429 - product id: 20280609, thử lại 1/3
+2025-09-29 16:08:45,274 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 20150585
+2025-09-29 16:08:45,448 WARNING: Lỗi HTTP 429 - product id: 20280579, thử lại 1/3
+2025-09-29 16:08:45,815 WARNING: Lỗi HTTP 429 - product id: 20302278, thử lại 1/3
+2025-09-29 16:08:47,446 WARNING: Lỗi HTTP 429 - product id: 20076109, thử lại 2/3
+2025-09-29 16:08:53,616 INFO: Đã commit batch 11 (1000 sản phẩm)
+2025-09-29 16:08:53,645 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_11_999_ids.csv
+2025-09-29 16:08:53,684 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_11_999_ids.csv vào database PostgeSQL
+2025-09-29 16:08:53,728 INFO: Bắt đầu crawl batch 12 (1000 sản phẩm)
+2025-09-29 16:09:00,222 WARNING: Lỗi HTTP 429 - product id: 22609986, thử lại 1/3
+2025-09-29 16:09:00,293 WARNING: Lỗi HTTP 429 - product id: 22616147, thử lại 1/3
+2025-09-29 16:09:01,271 WARNING: Lỗi HTTP 429 - product id: 21078996, thử lại 1/3
+2025-09-29 16:09:01,315 WARNING: Lỗi HTTP 429 - product id: 21082172, thử lại 1/3
+2025-09-29 16:09:01,360 WARNING: Lỗi HTTP 429 - product id: 21088598, thử lại 1/3
+2025-09-29 16:09:01,395 WARNING: Lỗi HTTP 429 - product id: 21090654, thử lại 1/3
+2025-09-29 16:09:01,487 WARNING: Lỗi HTTP 429 - product id: 21127684, thử lại 1/3
+2025-09-29 16:09:01,572 WARNING: Lỗi HTTP 429 - product id: 21139139, thử lại 1/3
+2025-09-29 16:09:01,723 WARNING: Lỗi HTTP 429 - product id: 21175827, thử lại 1/3
+2025-09-29 16:09:02,272 WARNING: Lỗi HTTP 429 - product id: 21313898, thử lại 1/3
+2025-09-29 16:09:02,316 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 21284912
+2025-09-29 16:09:05,040 WARNING: Lỗi HTTP 429 - product id: 21978388, thử lại 1/3
+2025-09-29 16:09:05,074 WARNING: Lỗi HTTP 429 - product id: 21175827, thử lại 2/3
+2025-09-29 16:09:05,168 WARNING: Lỗi HTTP 429 - product id: 21979838, thử lại 1/3
+2025-09-29 16:09:05,200 WARNING: Lỗi HTTP 429 - product id: 21981311, thử lại 1/3
+2025-09-29 16:09:06,792 WARNING: Lỗi HTTP 429 - product id: 22426450, thử lại 1/3
+2025-09-29 16:09:06,971 WARNING: Lỗi HTTP 429 - product id: 22507214, thử lại 1/3
+2025-09-29 16:09:07,010 WARNING: Lỗi HTTP 429 - product id: 22507608, thử lại 1/3
+2025-09-29 16:09:07,243 WARNING: Lỗi HTTP 429 - product id: 22595534, thử lại 1/3
+2025-09-29 16:09:07,823 WARNING: Lỗi HTTP 429 - product id: 22814331, thử lại 1/3
+2025-09-29 16:09:07,853 WARNING: Lỗi HTTP 429 - product id: 22824861, thử lại 1/3
+2025-09-29 16:09:07,999 WARNING: Lỗi HTTP 429 - product id: 22876935, thử lại 1/3
+2025-09-29 16:09:08,003 WARNING: Lỗi HTTP 429 - product id: 22883000, thử lại 1/3
+2025-09-29 16:09:08,029 WARNING: Lỗi HTTP 429 - product id: 22877952, thử lại 1/3
+2025-09-29 16:09:08,098 WARNING: Lỗi HTTP 429 - product id: 22884827, thử lại 1/3
+2025-09-29 16:09:08,248 WARNING: Lỗi HTTP 429 - product id: 20911963, thử lại 1/3
+2025-09-29 16:09:09,652 WARNING: Lỗi HTTP 429 - product id: 21046337, thử lại 1/3
+2025-09-29 16:09:09,664 WARNING: Lỗi HTTP 429 - product id: 21045338, thử lại 1/3
+2025-09-29 16:09:12,900 INFO: Đã commit batch 12 (1000 sản phẩm)
+2025-09-29 16:09:12,939 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_12_999_ids.csv
+2025-09-29 16:09:12,997 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_12_999_ids.csv vào database PostgeSQL
+2025-09-29 16:09:13,037 INFO: Bắt đầu crawl batch 13 (1000 sản phẩm)
+2025-09-29 16:09:13,232 WARNING: Lỗi HTTP 429 - product id: 23020266, thử lại 1/3
+2025-09-29 16:09:13,236 WARNING: Lỗi HTTP 429 - product id: 23014427, thử lại 1/3
+2025-09-29 16:09:13,245 WARNING: Lỗi HTTP 429 - product id: 23055680, thử lại 1/3
+2025-09-29 16:09:13,445 WARNING: Lỗi HTTP 429 - product id: 23079051, thử lại 1/3
+2025-09-29 16:09:14,784 WARNING: Lỗi HTTP 429 - product id: 23420033, thử lại 1/3
+2025-09-29 16:09:15,097 WARNING: Lỗi HTTP 429 - product id: 23452987, thử lại 1/3
+2025-09-29 16:09:15,097 WARNING: Lỗi HTTP 429 - product id: 23452740, thử lại 1/3
+2025-09-29 16:09:15,535 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 23383685
+2025-09-29 16:09:15,907 WARNING: Lỗi HTTP 429 - product id: 23870758, thử lại 1/3
+2025-09-29 16:09:15,907 WARNING: Lỗi HTTP 429 - product id: 23856552, thử lại 1/3
+2025-09-29 16:09:15,926 WARNING: Lỗi HTTP 429 - product id: 23896002, thử lại 1/3
+2025-09-29 16:09:15,936 WARNING: Lỗi HTTP 429 - product id: 23895990, thử lại 1/3
+2025-09-29 16:09:17,980 WARNING: Lỗi HTTP 429 - product id: 24311965, thử lại 1/3
+2025-09-29 16:09:18,137 WARNING: Lỗi HTTP 429 - product id: 24350104, thử lại 1/3
+2025-09-29 16:09:18,272 WARNING: Lỗi HTTP 429 - product id: 24409224, thử lại 1/3
+2025-09-29 16:09:18,277 WARNING: Lỗi HTTP 429 - product id: 24426217, thử lại 1/3
+2025-09-29 16:09:22,260 WARNING: Lỗi HTTP 429 - product id: 23482278, thử lại 1/3
+2025-09-29 16:09:22,261 WARNING: Lỗi HTTP 429 - product id: 23482299, thử lại 1/3
+2025-09-29 16:09:23,281 WARNING: Lỗi HTTP 429 - product id: 23911609, thử lại 1/3
+2025-09-29 16:09:23,330 WARNING: Lỗi HTTP 429 - product id: 23938153, thử lại 1/3
+2025-09-29 16:09:23,385 WARNING: Lỗi HTTP 429 - product id: 23944324, thử lại 1/3
+2025-09-29 16:09:23,385 WARNING: Lỗi HTTP 429 - product id: 23949163, thử lại 1/3
+2025-09-29 16:09:23,389 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 23569151
+2025-09-29 16:09:23,426 WARNING: Lỗi HTTP 429 - product id: 23956484, thử lại 1/3
+2025-09-29 16:09:23,477 WARNING: Lỗi HTTP 429 - product id: 24004234, thử lại 1/3
+2025-09-29 16:09:23,477 WARNING: Lỗi HTTP 429 - product id: 24004187, thử lại 1/3
+2025-09-29 16:09:23,480 WARNING: Lỗi HTTP 429 - product id: 24004260, thử lại 1/3
+2025-09-29 16:09:24,104 WARNING: Lỗi HTTP 429 - product id: 24068540, thử lại 1/3
+2025-09-29 16:09:24,454 WARNING: Lỗi HTTP 429 - product id: 24230180, thử lại 1/3
+2025-09-29 16:09:24,667 WARNING: Lỗi HTTP 429 - product id: 24267390, thử lại 1/3
+2025-09-29 16:09:24,906 WARNING: Lỗi HTTP 429 - product id: 24354941, thử lại 1/3
+2025-09-29 16:09:24,942 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 24243874
+2025-09-29 16:09:25,016 WARNING: Lỗi HTTP 429 - product id: 24390917, thử lại 1/3
+2025-09-29 16:09:25,046 WARNING: Lỗi HTTP 429 - product id: 24408456, thử lại 1/3
+2025-09-29 16:09:25,321 WARNING: Lỗi HTTP 429 - product id: 24481134, thử lại 1/3
+2025-09-29 16:09:25,527 WARNING: Lỗi HTTP 429 - product id: 24509892, thử lại 1/3
+2025-09-29 16:09:31,156 INFO: Đã commit batch 13 (1000 sản phẩm)
+2025-09-29 16:09:31,197 INFO: Đã ghi 997 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_13_997_ids.csv
+2025-09-29 16:09:31,242 INFO: Đã insert 997 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_13_997_ids.csv vào database PostgeSQL
+2025-09-29 16:09:31,285 INFO: Bắt đầu crawl batch 14 (1000 sản phẩm)
+2025-09-29 16:09:32,398 WARNING: Lỗi HTTP 429 - product id: 25705648, thử lại 1/3
+2025-09-29 16:09:33,044 WARNING: Lỗi HTTP 429 - product id: 25935654, thử lại 1/3
+2025-09-29 16:09:33,688 WARNING: Lỗi HTTP 429 - product id: 26060379, thử lại 1/3
+2025-09-29 16:09:33,758 WARNING: Lỗi HTTP 429 - product id: 26073427, thử lại 1/3
+2025-09-29 16:09:33,801 WARNING: Lỗi HTTP 429 - product id: 26081106, thử lại 1/3
+2025-09-29 16:09:33,850 WARNING: Lỗi HTTP 429 - product id: 26083161, thử lại 1/3
+2025-09-29 16:09:33,966 WARNING: Lỗi HTTP 429 - product id: 26098948, thử lại 1/3
+2025-09-29 16:09:35,086 WARNING: Lỗi HTTP 429 - product id: 26344874, thử lại 1/3
+2025-09-29 16:09:35,355 WARNING: Lỗi HTTP 429 - product id: 26454178, thử lại 1/3
+2025-09-29 16:09:35,437 WARNING: Lỗi HTTP 429 - product id: 26474968, thử lại 1/3
+2025-09-29 16:09:35,466 WARNING: Lỗi HTTP 429 - product id: 26481079, thử lại 1/3
+2025-09-29 16:09:35,469 WARNING: Lỗi HTTP 429 - product id: 26483489, thử lại 1/3
+2025-09-29 16:09:35,537 WARNING: Lỗi HTTP 429 - product id: 26493327, thử lại 1/3
+2025-09-29 16:09:35,569 WARNING: Lỗi HTTP 429 - product id: 26501652, thử lại 1/3
+2025-09-29 16:09:42,827 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 26162099
+2025-09-29 16:09:46,706 WARNING: Lỗi HTTP 429 - product id: 28367527, thử lại 1/3
+2025-09-29 16:09:46,720 WARNING: Lỗi HTTP 429 - product id: 28601199, thử lại 1/3
+2025-09-29 16:09:46,720 WARNING: Lỗi HTTP 429 - product id: 28433073, thử lại 1/3
+2025-09-29 16:09:46,858 WARNING: Lỗi HTTP 429 - product id: 25157571, thử lại 1/3
+2025-09-29 16:09:46,894 WARNING: Lỗi HTTP 429 - product id: 25172366, thử lại 1/3
+2025-09-29 16:09:48,060 WARNING: Lỗi HTTP 429 - product id: 25306543, thử lại 1/3
+2025-09-29 16:09:48,066 WARNING: Lỗi HTTP 429 - product id: 25307115, thử lại 1/3
+2025-09-29 16:09:48,158 WARNING: Lỗi HTTP 429 - product id: 25311055, thử lại 1/3
+2025-09-29 16:09:48,240 WARNING: Lỗi HTTP 429 - product id: 25311712, thử lại 1/3
+2025-09-29 16:09:48,797 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 25293276
+2025-09-29 16:09:51,448 INFO: Đã commit batch 14 (1000 sản phẩm)
+2025-09-29 16:09:51,492 INFO: Đã ghi 998 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_14_998_ids.csv
+2025-09-29 16:09:51,538 INFO: Đã insert 998 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_14_998_ids.csv vào database PostgeSQL
+2025-09-29 16:09:51,577 INFO: Bắt đầu crawl batch 15 (1000 sản phẩm)
+2025-09-29 16:09:56,940 WARNING: Lỗi HTTP 429 - product id: 32129384, thử lại 1/3
+2025-09-29 16:09:57,269 WARNING: Lỗi HTTP 429 - product id: 32200286, thử lại 1/3
+2025-09-29 16:09:57,283 WARNING: Lỗi HTTP 429 - product id: 32202935, thử lại 1/3
+2025-09-29 16:09:57,315 WARNING: Lỗi HTTP 429 - product id: 32214417, thử lại 1/3
+2025-09-29 16:09:57,383 WARNING: Lỗi HTTP 429 - product id: 32215264, thử lại 1/3
+2025-09-29 16:09:57,384 WARNING: Lỗi HTTP 429 - product id: 32215461, thử lại 1/3
+2025-09-29 16:09:58,230 WARNING: Lỗi HTTP 429 - product id: 32391004, thử lại 1/3
+2025-09-29 16:09:58,241 WARNING: Lỗi HTTP 429 - product id: 32392226, thử lại 1/3
+2025-09-29 16:09:58,328 WARNING: Lỗi HTTP 429 - product id: 32397583, thử lại 1/3
+2025-09-29 16:09:58,342 WARNING: Lỗi HTTP 429 - product id: 32395242, thử lại 1/3
+2025-09-29 16:09:58,489 WARNING: Lỗi HTTP 429 - product id: 28937887, thử lại 1/3
+2025-09-29 16:09:58,779 WARNING: Lỗi HTTP 429 - product id: 29164588, thử lại 1/3
+2025-09-29 16:09:59,056 WARNING: Lỗi HTTP 429 - product id: 29271677, thử lại 1/3
+2025-09-29 16:09:59,065 WARNING: Lỗi HTTP 429 - product id: 29289376, thử lại 1/3
+2025-09-29 16:09:59,290 WARNING: Lỗi HTTP 429 - product id: 29401891, thử lại 1/3
+2025-09-29 16:09:59,311 WARNING: Lỗi HTTP 429 - product id: 29347957, thử lại 1/3
+2025-09-29 16:09:59,320 WARNING: Lỗi HTTP 429 - product id: 29424490, thử lại 1/3
+2025-09-29 16:10:01,135 WARNING: Lỗi HTTP 429 - product id: 31129309, thử lại 1/3
+2025-09-29 16:10:03,678 WARNING: Lỗi HTTP 429 - product id: 31667248, thử lại 1/3
+2025-09-29 16:10:03,679 WARNING: Lỗi HTTP 429 - product id: 31658229, thử lại 1/3
+2025-09-29 16:10:04,626 WARNING: Lỗi HTTP 429 - product id: 31917991, thử lại 1/3
+2025-09-29 16:10:04,757 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 31855083
+2025-09-29 16:10:04,802 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 31908911
+2025-09-29 16:10:04,837 WARNING: Lỗi HTTP 429 - product id: 32022520, thử lại 1/3
+2025-09-29 16:10:05,030 WARNING: Lỗi HTTP 429 - product id: 32132030, thử lại 1/3
+2025-09-29 16:10:05,128 WARNING: Lỗi HTTP 429 - product id: 32141513, thử lại 1/3
+2025-09-29 16:10:05,490 WARNING: Lỗi HTTP 429 - product id: 32226285, thử lại 1/3
+2025-09-29 16:10:05,518 WARNING: Lỗi HTTP 429 - product id: 32226353, thử lại 1/3
+2025-09-29 16:10:05,599 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 31909260
+2025-09-29 16:10:05,602 WARNING: Lỗi HTTP 429 - product id: 32268615, thử lại 1/3
+2025-09-29 16:10:05,627 WARNING: Lỗi HTTP 429 - product id: 32305380, thử lại 1/3
+2025-09-29 16:10:05,719 WARNING: Lỗi HTTP 429 - product id: 32313675, thử lại 1/3
+2025-09-29 16:10:05,722 WARNING: Lỗi HTTP 429 - product id: 32326446, thử lại 1/3
+2025-09-29 16:10:05,727 WARNING: Lỗi HTTP 429 - product id: 32324121, thử lại 1/3
+2025-09-29 16:10:05,792 WARNING: Lỗi HTTP 429 - product id: 32226453, thử lại 1/3
+2025-09-29 16:10:05,832 WARNING: Lỗi HTTP 429 - product id: 32371550, thử lại 1/3
+2025-09-29 16:10:06,204 WARNING: Lỗi HTTP 429 - product id: 28670702, thử lại 1/3
+2025-09-29 16:10:06,305 WARNING: Lỗi HTTP 429 - product id: 28726157, thử lại 1/3
+2025-09-29 16:10:06,515 WARNING: Lỗi HTTP 429 - product id: 28908040, thử lại 1/3
+2025-09-29 16:10:09,665 INFO: Đã commit batch 15 (1000 sản phẩm)
+2025-09-29 16:10:09,696 INFO: Đã ghi 997 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_15_997_ids.csv
+2025-09-29 16:10:09,743 INFO: Đã insert 997 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_15_997_ids.csv vào database PostgeSQL
+2025-09-29 16:10:09,787 INFO: Bắt đầu crawl batch 16 (1000 sản phẩm)
+2025-09-29 16:10:11,648 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 33065672
+2025-09-29 16:10:13,270 WARNING: Lỗi HTTP 429 - product id: 34274085, thử lại 1/3
+2025-09-29 16:10:13,280 WARNING: Lỗi HTTP 429 - product id: 34274337, thử lại 1/3
+2025-09-29 16:10:13,593 WARNING: Lỗi HTTP 429 - product id: 34377675, thử lại 1/3
+2025-09-29 16:10:13,848 WARNING: Lỗi HTTP 429 - product id: 34480223, thử lại 1/3
+2025-09-29 16:10:14,786 WARNING: Lỗi HTTP 429 - product id: 34556871, thử lại 1/3
+2025-09-29 16:10:14,942 WARNING: Lỗi HTTP 429 - product id: 34676509, thử lại 1/3
+2025-09-29 16:10:14,942 WARNING: Lỗi HTTP 429 - product id: 34681736, thử lại 1/3
+2025-09-29 16:10:14,943 WARNING: Lỗi HTTP 429 - product id: 34687464, thử lại 1/3
+2025-09-29 16:10:14,970 WARNING: Lỗi HTTP 429 - product id: 34688117, thử lại 1/3
+2025-09-29 16:10:15,032 WARNING: Lỗi HTTP 429 - product id: 34705908, thử lại 1/3
+2025-09-29 16:10:18,613 WARNING: Lỗi HTTP 429 - product id: 32975603, thử lại 1/3
+2025-09-29 16:10:18,797 WARNING: Lỗi HTTP 429 - product id: 33031423, thử lại 1/3
+2025-09-29 16:10:18,941 WARNING: Lỗi HTTP 429 - product id: 33111584, thử lại 1/3
+2025-09-29 16:10:19,029 WARNING: Lỗi HTTP 429 - product id: 33137317, thử lại 1/3
+2025-09-29 16:10:19,029 WARNING: Lỗi HTTP 429 - product id: 33136098, thử lại 1/3
+2025-09-29 16:10:19,284 WARNING: Lỗi HTTP 429 - product id: 33209563, thử lại 1/3
+2025-09-29 16:10:19,286 WARNING: Lỗi HTTP 429 - product id: 33235936, thử lại 1/3
+2025-09-29 16:10:19,401 WARNING: Lỗi HTTP 429 - product id: 33365611, thử lại 1/3
+2025-09-29 16:10:19,451 WARNING: Lỗi HTTP 429 - product id: 33392109, thử lại 1/3
+2025-09-29 16:10:20,998 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 33564005
+2025-09-29 16:10:23,772 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 34723602
+2025-09-29 16:10:24,318 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 34725666
+2025-09-29 16:10:24,711 WARNING: Lỗi HTTP 429 - product id: 35198552, thử lại 1/3
+2025-09-29 16:10:24,753 WARNING: Lỗi HTTP 429 - product id: 35199479, thử lại 1/3
+2025-09-29 16:10:25,150 WARNING: Lỗi HTTP 429 - product id: 32409483, thử lại 1/3
+2025-09-29 16:10:25,503 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 35227126
+2025-09-29 16:10:28,317 INFO: Đã commit batch 16 (1000 sản phẩm)
+2025-09-29 16:10:28,356 INFO: Đã ghi 995 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_16_995_ids.csv
+2025-09-29 16:10:28,396 INFO: Đã insert 995 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_16_995_ids.csv vào database PostgeSQL
+2025-09-29 16:10:28,437 INFO: Bắt đầu crawl batch 17 (1000 sản phẩm)
+2025-09-29 16:10:28,772 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 35251478
+2025-09-29 16:10:29,648 WARNING: Lỗi HTTP 429 - product id: 35522549, thử lại 1/3
+2025-09-29 16:10:30,806 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 35723131
+2025-09-29 16:10:31,331 WARNING: Lỗi HTTP 429 - product id: 35870773, thử lại 1/3
+2025-09-29 16:10:31,373 WARNING: Lỗi HTTP 429 - product id: 35870866, thử lại 1/3
+2025-09-29 16:10:31,588 WARNING: Lỗi HTTP 429 - product id: 35922541, thử lại 1/3
+2025-09-29 16:10:31,682 WARNING: Lỗi HTTP 429 - product id: 35936533, thử lại 1/3
+2025-09-29 16:10:31,740 WARNING: Lỗi HTTP 429 - product id: 35964489, thử lại 1/3
+2025-09-29 16:10:31,775 WARNING: Lỗi HTTP 429 - product id: 35973951, thử lại 1/3
+2025-09-29 16:10:33,584 WARNING: Lỗi HTTP 429 - product id: 36390709, thử lại 1/3
+2025-09-29 16:10:33,959 WARNING: Lỗi HTTP 429 - product id: 36494693, thử lại 1/3
+2025-09-29 16:10:34,110 WARNING: Lỗi HTTP 429 - product id: 36551594, thử lại 1/3
+2025-09-29 16:10:34,299 WARNING: Lỗi HTTP 429 - product id: 36630087, thử lại 1/3
+2025-09-29 16:10:34,303 WARNING: Lỗi HTTP 429 - product id: 36640654, thử lại 1/3
+2025-09-29 16:10:35,307 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 36740931
+2025-09-29 16:10:35,667 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 36767996
+2025-09-29 16:10:36,208 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 36869362
+2025-09-29 16:10:39,907 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 35723368
+2025-09-29 16:10:40,381 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 35865497
+2025-09-29 16:10:41,217 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 36023947
+2025-09-29 16:10:41,305 WARNING: Lỗi HTTP 429 - product id: 36266650, thử lại 1/3
+2025-09-29 16:10:41,360 WARNING: Lỗi HTTP 429 - product id: 36292987, thử lại 1/3
+2025-09-29 16:10:41,439 WARNING: Lỗi HTTP 429 - product id: 36302389, thử lại 1/3
+2025-09-29 16:10:41,599 WARNING: Lỗi HTTP 429 - product id: 36340831, thử lại 1/3
+2025-09-29 16:10:41,962 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 36188812
+2025-09-29 16:10:42,902 WARNING: Lỗi HTTP 429 - product id: 36685639, thử lại 1/3
+2025-09-29 16:10:43,072 WARNING: Lỗi HTTP 429 - product id: 36755850, thử lại 1/3
+2025-09-29 16:10:44,607 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 36995833
+2025-09-29 16:10:46,236 INFO: Đã commit batch 17 (1000 sản phẩm)
+2025-09-29 16:10:46,271 INFO: Đã ghi 990 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_17_990_ids.csv
+2025-09-29 16:10:46,310 INFO: Đã insert 990 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_17_990_ids.csv vào database PostgeSQL
+2025-09-29 16:10:46,349 INFO: Bắt đầu crawl batch 18 (1000 sản phẩm)
+2025-09-29 16:10:49,553 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 37961414
+2025-09-29 16:10:49,817 WARNING: Lỗi HTTP 429 - product id: 38119184, thử lại 1/3
+2025-09-29 16:10:49,819 WARNING: Lỗi HTTP 429 - product id: 38121483, thử lại 1/3
+2025-09-29 16:10:49,899 WARNING: Lỗi HTTP 429 - product id: 38134084, thử lại 1/3
+2025-09-29 16:10:49,899 WARNING: Lỗi HTTP 429 - product id: 38130321, thử lại 1/3
+2025-09-29 16:10:49,946 WARNING: Lỗi HTTP 429 - product id: 38162071, thử lại 1/3
+2025-09-29 16:10:49,997 WARNING: Lỗi HTTP 429 - product id: 38165787, thử lại 1/3
+2025-09-29 16:10:50,331 WARNING: Lỗi HTTP 429 - product id: 38245663, thử lại 1/3
+2025-09-29 16:10:50,440 WARNING: Lỗi HTTP 429 - product id: 38296380, thử lại 1/3
+2025-09-29 16:10:50,524 WARNING: Lỗi HTTP 429 - product id: 38330945, thử lại 1/3
+2025-09-29 16:10:50,703 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 38208053
+2025-09-29 16:10:51,702 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 38495219
+2025-09-29 16:10:51,827 WARNING: Lỗi HTTP 429 - product id: 38839115, thử lại 1/3
+2025-09-29 16:10:51,840 WARNING: Lỗi HTTP 429 - product id: 38839402, thử lại 1/3
+2025-09-29 16:10:51,928 WARNING: Lỗi HTTP 429 - product id: 38898670, thử lại 1/3
+2025-09-29 16:10:52,295 WARNING: Lỗi HTTP 429 - product id: 39229250, thử lại 1/3
+2025-09-29 16:10:52,310 WARNING: Lỗi HTTP 429 - product id: 39273333, thử lại 1/3
+2025-09-29 16:10:52,394 WARNING: Lỗi HTTP 429 - product id: 39305747, thử lại 1/3
+2025-09-29 16:10:56,066 WARNING: Lỗi HTTP 429 - product id: 37909556, thử lại 1/3
+2025-09-29 16:10:56,067 WARNING: Lỗi HTTP 429 - product id: 37909470, thử lại 1/3
+2025-09-29 16:10:56,075 WARNING: Lỗi HTTP 429 - product id: 37909650, thử lại 1/3
+2025-09-29 16:10:56,196 WARNING: Lỗi HTTP 429 - product id: 37910384, thử lại 1/3
+2025-09-29 16:11:02,212 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 38467919
+2025-09-29 16:11:04,866 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 39951047
+2025-09-29 16:11:13,018 INFO: Đã commit batch 18 (1000 sản phẩm)
+2025-09-29 16:11:13,053 INFO: Đã ghi 995 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_18_995_ids.csv
+2025-09-29 16:11:13,085 INFO: Đã insert 995 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_18_995_ids.csv vào database PostgeSQL
+2025-09-29 16:11:13,126 INFO: Bắt đầu crawl batch 19 (1000 sản phẩm)
+2025-09-29 16:11:15,679 WARNING: Lỗi HTTP 429 - product id: 41380884, thử lại 1/3
+2025-09-29 16:11:15,689 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 41321260
+2025-09-29 16:12:37,097 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 16:12:37,105 INFO: Bảng product_list hiện có 200000 product_id
+2025-09-29 16:12:37,105 INFO: Bảng product_list đã có đủ dữ liệu, bỏ qua insert
+2025-09-29 16:12:37,186 INFO: Bắt đầu crawl batch 19 (1000 sản phẩm)
+2025-09-29 16:12:41,162 WARNING: Lỗi HTTP 429 - product id: 41178393, thử lại 1/3
+2025-09-29 16:12:42,823 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 41321260
+2025-09-29 16:12:45,664 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 42496586
+2025-09-29 16:12:47,265 WARNING: Lỗi HTTP 429 - product id: 40757558, thử lại 1/3
+2025-09-29 16:12:47,321 WARNING: Lỗi HTTP 429 - product id: 40768564, thử lại 1/3
+2025-09-29 16:12:47,344 WARNING: Lỗi HTTP 429 - product id: 40769337, thử lại 1/3
+2025-09-29 16:12:49,912 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 41293717
+2025-09-29 16:12:50,032 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 41343279
+2025-09-29 16:12:50,384 WARNING: Lỗi HTTP 429 - product id: 41648091, thử lại 1/3
+2025-09-29 16:12:54,731 WARNING: Lỗi HTTP 429 - product id: 40420977, thử lại 1/3
+2025-09-29 16:12:55,196 WARNING: Lỗi HTTP 429 - product id: 40008417, thử lại 1/3
+2025-09-29 16:12:55,504 WARNING: Lỗi HTTP 429 - product id: 40385901, thử lại 1/3
+2025-09-29 16:12:55,716 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 40184664
+2025-09-29 16:12:58,720 INFO: Đã commit batch 19 (1000 sản phẩm)
+2025-09-29 16:12:58,756 INFO: Đã ghi 995 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_19_995_ids.csv
+2025-09-29 16:12:58,795 INFO: Đã insert 995 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_19_995_ids.csv vào database PostgeSQL
+2025-09-29 16:12:58,836 INFO: Bắt đầu crawl batch 20 (1000 sản phẩm)
+2025-09-29 16:12:59,745 WARNING: Lỗi HTTP 429 - product id: 43234026, thử lại 1/3
+2025-09-29 16:12:59,779 WARNING: Lỗi HTTP 429 - product id: 43238315, thử lại 1/3
+2025-09-29 16:12:59,862 WARNING: Lỗi HTTP 429 - product id: 43301968, thử lại 1/3
+2025-09-29 16:13:00,278 WARNING: Lỗi HTTP 429 - product id: 43634955, thử lại 1/3
+2025-09-29 16:13:00,677 WARNING: Lỗi HTTP 429 - product id: 43758623, thử lại 1/3
+2025-09-29 16:13:00,701 WARNING: Lỗi HTTP 429 - product id: 43763154, thử lại 1/3
+2025-09-29 16:13:00,712 WARNING: Lỗi HTTP 429 - product id: 43767441, thử lại 1/3
+2025-09-29 16:13:00,849 WARNING: Lỗi HTTP 429 - product id: 43821125, thử lại 1/3
+2025-09-29 16:13:01,050 WARNING: Lỗi HTTP 429 - product id: 43837461, thử lại 1/3
+2025-09-29 16:13:01,061 WARNING: Lỗi HTTP 429 - product id: 43842296, thử lại 1/3
+2025-09-29 16:13:01,133 WARNING: Lỗi HTTP 429 - product id: 43847956, thử lại 1/3
+2025-09-29 16:13:01,301 WARNING: Lỗi HTTP 429 - product id: 43859820, thử lại 1/3
+2025-09-29 16:13:01,323 WARNING: Lỗi HTTP 429 - product id: 43863649, thử lại 1/3
+2025-09-29 16:13:03,968 WARNING: Lỗi HTTP 429 - product id: 44571228, thử lại 1/3
+2025-09-29 16:13:05,347 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 44778879
+2025-09-29 16:13:06,635 WARNING: Lỗi HTTP 429 - product id: 43182397, thử lại 1/3
+2025-09-29 16:13:09,912 WARNING: Lỗi HTTP 429 - product id: 44018646, thử lại 1/3
+2025-09-29 16:13:10,034 WARNING: Lỗi HTTP 429 - product id: 44054926, thử lại 1/3
+2025-09-29 16:13:15,760 INFO: Đã commit batch 20 (1000 sản phẩm)
+2025-09-29 16:13:15,796 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_20_999_ids.csv
+2025-09-29 16:13:15,827 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_20_999_ids.csv vào database PostgeSQL
+2025-09-29 16:13:15,866 INFO: Bắt đầu crawl batch 21 (1000 sản phẩm)
+2025-09-29 16:13:16,117 WARNING: Lỗi HTTP 429 - product id: 45244396, thử lại 1/3
+2025-09-29 16:13:16,138 WARNING: Lỗi HTTP 429 - product id: 45293739, thử lại 1/3
+2025-09-29 16:13:16,290 WARNING: Lỗi HTTP 429 - product id: 45412668, thử lại 1/3
+2025-09-29 16:13:16,592 WARNING: Lỗi HTTP 429 - product id: 45570908, thử lại 1/3
+2025-09-29 16:13:16,652 WARNING: Lỗi HTTP 429 - product id: 45553784, thử lại 1/3
+2025-09-29 16:13:16,709 WARNING: Lỗi HTTP 429 - product id: 45535937, thử lại 1/3
+2025-09-29 16:13:16,787 WARNING: Lỗi HTTP 429 - product id: 45602336, thử lại 1/3
+2025-09-29 16:13:16,858 WARNING: Lỗi HTTP 429 - product id: 45606835, thử lại 1/3
+2025-09-29 16:13:17,708 WARNING: Lỗi HTTP 429 - product id: 46054839, thử lại 1/3
+2025-09-29 16:13:17,778 WARNING: Lỗi HTTP 429 - product id: 46068398, thử lại 1/3
+2025-09-29 16:13:18,195 WARNING: Lỗi HTTP 429 - product id: 46131418, thử lại 1/3
+2025-09-29 16:13:19,558 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 45244396
+2025-09-29 16:13:20,969 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 46732905
+2025-09-29 16:13:21,185 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 46655824
+2025-09-29 16:13:23,556 WARNING: Lỗi HTTP 429 - product id: 45322692, thử lại 1/3
+2025-09-29 16:13:23,630 WARNING: Lỗi HTTP 429 - product id: 45377748, thử lại 1/3
+2025-09-29 16:13:24,522 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 45463834
+2025-09-29 16:13:25,619 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 45832109
+2025-09-29 16:13:31,208 WARNING: Lỗi HTTP 429 - product id: 45015835, thử lại 1/3
+2025-09-29 16:13:31,304 WARNING: Lỗi HTTP 429 - product id: 44922099, thử lại 1/3
+2025-09-29 16:13:31,414 WARNING: Lỗi HTTP 429 - product id: 44925646, thử lại 1/3
+2025-09-29 16:13:31,762 WARNING: Lỗi HTTP 429 - product id: 45009372, thử lại 1/3
+2025-09-29 16:13:31,821 WARNING: Lỗi HTTP 429 - product id: 45026086, thử lại 1/3
+2025-09-29 16:13:31,949 WARNING: Lỗi HTTP 429 - product id: 45092044, thử lại 1/3
+2025-09-29 16:13:35,139 INFO: Đã commit batch 21 (1000 sản phẩm)
+2025-09-29 16:13:35,174 INFO: Đã ghi 995 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_21_995_ids.csv
+2025-09-29 16:13:35,208 INFO: Đã insert 995 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_21_995_ids.csv vào database PostgeSQL
+2025-09-29 16:13:35,247 INFO: Bắt đầu crawl batch 22 (1000 sản phẩm)
+2025-09-29 16:13:37,089 WARNING: Lỗi HTTP 429 - product id: 48252472, thử lại 1/3
+2025-09-29 16:13:37,099 WARNING: Lỗi HTTP 429 - product id: 48252480, thử lại 1/3
+2025-09-29 16:13:37,321 WARNING: Lỗi HTTP 429 - product id: 48277257, thử lại 1/3
+2025-09-29 16:13:37,435 WARNING: Lỗi HTTP 429 - product id: 48302851, thử lại 1/3
+2025-09-29 16:13:43,890 WARNING: Lỗi HTTP 429 - product id: 47823208, thử lại 1/3
+2025-09-29 16:13:46,628 WARNING: Lỗi HTTP 429 - product id: 48324888, thử lại 1/3
+2025-09-29 16:13:46,898 WARNING: Lỗi HTTP 429 - product id: 48401145, thử lại 1/3
+2025-09-29 16:13:46,999 WARNING: Lỗi HTTP 429 - product id: 48428798, thử lại 1/3
+2025-09-29 16:13:47,252 WARNING: Lỗi HTTP 429 - product id: 48462951, thử lại 1/3
+2025-09-29 16:13:47,291 WARNING: Lỗi HTTP 429 - product id: 48477974, thử lại 1/3
+2025-09-29 16:13:47,388 WARNING: Lỗi HTTP 429 - product id: 48502071, thử lại 1/3
+2025-09-29 16:13:47,394 WARNING: Lỗi HTTP 429 - product id: 48504772, thử lại 1/3
+2025-09-29 16:13:47,422 WARNING: Lỗi HTTP 429 - product id: 48507397, thử lại 1/3
+2025-09-29 16:13:48,236 WARNING: Lỗi HTTP 429 - product id: 48579650, thử lại 1/3
+2025-09-29 16:13:48,355 WARNING: Lỗi HTTP 429 - product id: 48591554, thử lại 1/3
+2025-09-29 16:13:48,371 WARNING: Lỗi HTTP 429 - product id: 48594251, thử lại 1/3
+2025-09-29 16:13:48,384 WARNING: Lỗi HTTP 429 - product id: 48606572, thử lại 1/3
+2025-09-29 16:13:52,561 INFO: Đã commit batch 22 (1000 sản phẩm)
+2025-09-29 16:13:52,599 INFO: Đã ghi 1000 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_22_1000_ids.csv
+2025-09-29 16:13:52,636 INFO: Đã insert 1000 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_22_1000_ids.csv vào database PostgeSQL
+2025-09-29 16:13:52,675 INFO: Bắt đầu crawl batch 23 (1000 sản phẩm)
+2025-09-29 16:13:53,842 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 49250760
+2025-09-29 16:14:00,298 WARNING: Lỗi HTTP 429 - product id: 50705450, thử lại 1/3
+2025-09-29 16:14:00,487 WARNING: Lỗi HTTP 429 - product id: 49132001, thử lại 1/3
+2025-09-29 16:14:00,530 WARNING: Lỗi HTTP 429 - product id: 49165357, thử lại 1/3
+2025-09-29 16:14:00,672 WARNING: Lỗi HTTP 429 - product id: 49182756, thử lại 1/3
+2025-09-29 16:14:06,734 WARNING: Lỗi HTTP 429 - product id: 50451978, thử lại 1/3
+2025-09-29 16:14:06,827 WARNING: Lỗi HTTP 429 - product id: 50466121, thử lại 1/3
+2025-09-29 16:14:06,988 WARNING: Lỗi HTTP 429 - product id: 50486123, thử lại 1/3
+2025-09-29 16:14:08,222 WARNING: Lỗi HTTP 429 - product id: 49077430, thử lại 1/3
+2025-09-29 16:14:08,427 WARNING: Lỗi HTTP 429 - product id: 49104950, thử lại 1/3
+2025-09-29 16:14:08,427 WARNING: Lỗi HTTP 429 - product id: 49115656, thử lại 1/3
+2025-09-29 16:14:11,606 INFO: Đã commit batch 23 (1000 sản phẩm)
+2025-09-29 16:14:11,645 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_23_999_ids.csv
+2025-09-29 16:14:11,684 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_23_999_ids.csv vào database PostgeSQL
+2025-09-29 16:14:11,739 INFO: Bắt đầu crawl batch 24 (1000 sản phẩm)
+2025-09-29 16:14:16,811 WARNING: Lỗi HTTP 429 - product id: 52012143, thử lại 1/3
+2025-09-29 16:14:16,811 WARNING: Lỗi HTTP 429 - product id: 52037041, thử lại 1/3
+2025-09-29 16:14:16,943 WARNING: Lỗi HTTP 429 - product id: 52047090, thử lại 1/3
+2025-09-29 16:14:17,217 WARNING: Lỗi HTTP 429 - product id: 52076305, thử lại 1/3
+2025-09-29 16:14:21,394 WARNING: Lỗi HTTP 429 - product id: 51283606, thử lại 1/3
+2025-09-29 16:14:22,389 WARNING: Lỗi HTTP 429 - product id: 51437124, thử lại 1/3
+2025-09-29 16:14:22,460 WARNING: Lỗi HTTP 429 - product id: 51428488, thử lại 1/3
+2025-09-29 16:14:22,686 WARNING: Lỗi HTTP 429 - product id: 51517941, thử lại 1/3
+2025-09-29 16:14:22,751 WARNING: Lỗi HTTP 429 - product id: 51523906, thử lại 1/3
+2025-09-29 16:14:22,904 WARNING: Lỗi HTTP 429 - product id: 51558757, thử lại 1/3
+2025-09-29 16:14:22,904 WARNING: Lỗi HTTP 429 - product id: 51548738, thử lại 1/3
+2025-09-29 16:14:23,732 WARNING: Lỗi HTTP 429 - product id: 51726531, thử lại 1/3
+2025-09-29 16:14:26,198 WARNING: Lỗi HTTP 429 - product id: 52111342, thử lại 1/3
+2025-09-29 16:14:26,305 WARNING: Lỗi HTTP 429 - product id: 52128732, thử lại 1/3
+2025-09-29 16:14:26,371 WARNING: Lỗi HTTP 429 - product id: 52133923, thử lại 1/3
+2025-09-29 16:14:26,371 WARNING: Lỗi HTTP 429 - product id: 52133924, thử lại 1/3
+2025-09-29 16:14:26,390 WARNING: Lỗi HTTP 429 - product id: 52134232, thử lại 1/3
+2025-09-29 16:14:26,447 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52112865
+2025-09-29 16:14:30,256 INFO: Đã commit batch 24 (1000 sản phẩm)
+2025-09-29 16:14:30,297 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_24_999_ids.csv
+2025-09-29 16:14:30,355 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_24_999_ids.csv vào database PostgeSQL
+2025-09-29 16:14:30,428 INFO: Bắt đầu crawl batch 25 (1000 sản phẩm)
+2025-09-29 16:14:30,635 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52277277
+2025-09-29 16:14:32,653 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52484184
+2025-09-29 16:14:32,887 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52649547
+2025-09-29 16:14:33,494 WARNING: Lỗi HTTP 429 - product id: 52716528, thử lại 1/3
+2025-09-29 16:14:33,534 WARNING: Lỗi HTTP 429 - product id: 52716554, thử lại 1/3
+2025-09-29 16:14:33,616 WARNING: Lỗi HTTP 429 - product id: 52724145, thử lại 1/3
+2025-09-29 16:14:33,700 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52649533
+2025-09-29 16:14:33,704 WARNING: Lỗi HTTP 429 - product id: 52755780, thử lại 1/3
+2025-09-29 16:14:33,719 WARNING: Lỗi HTTP 429 - product id: 52773154, thử lại 1/3
+2025-09-29 16:14:33,749 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52649551
+2025-09-29 16:14:33,768 WARNING: Lỗi HTTP 429 - product id: 52779572, thử lại 1/3
+2025-09-29 16:14:33,771 WARNING: Lỗi HTTP 429 - product id: 52779807, thử lại 1/3
+2025-09-29 16:14:33,834 WARNING: Lỗi HTTP 429 - product id: 52785670, thử lại 1/3
+2025-09-29 16:14:33,836 WARNING: Lỗi HTTP 429 - product id: 52781066, thử lại 1/3
+2025-09-29 16:14:33,849 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52659820
+2025-09-29 16:14:33,888 WARNING: Lỗi HTTP 429 - product id: 52791785, thử lại 1/3
+2025-09-29 16:14:33,951 WARNING: Lỗi HTTP 429 - product id: 52820129, thử lại 1/3
+2025-09-29 16:14:33,993 WARNING: Lỗi HTTP 429 - product id: 52835942, thử lại 1/3
+2025-09-29 16:14:34,122 WARNING: Lỗi HTTP 429 - product id: 52875924, thử lại 1/3
+2025-09-29 16:14:34,448 WARNING: Lỗi HTTP 429 - product id: 53017636, thử lại 1/3
+2025-09-29 16:14:34,589 WARNING: Lỗi HTTP 429 - product id: 53034828, thử lại 1/3
+2025-09-29 16:14:35,029 WARNING: Lỗi HTTP 429 - product id: 53129202, thử lại 1/3
+2025-09-29 16:14:35,031 WARNING: Lỗi HTTP 429 - product id: 53122207, thử lại 1/3
+2025-09-29 16:14:35,810 WARNING: Lỗi HTTP 429 - product id: 53281687, thử lại 1/3
+2025-09-29 16:14:35,839 WARNING: Lỗi HTTP 429 - product id: 53282802, thử lại 1/3
+2025-09-29 16:14:36,026 WARNING: Lỗi HTTP 429 - product id: 53300637, thử lại 1/3
+2025-09-29 16:14:36,113 WARNING: Lỗi HTTP 429 - product id: 53308918, thử lại 1/3
+2025-09-29 16:14:36,617 WARNING: Lỗi HTTP 429 - product id: 53468219, thử lại 1/3
+2025-09-29 16:14:36,685 WARNING: Lỗi HTTP 429 - product id: 53469001, thử lại 1/3
+2025-09-29 16:14:36,856 WARNING: Lỗi HTTP 429 - product id: 53496796, thử lại 1/3
+2025-09-29 16:14:36,882 WARNING: Lỗi HTTP 429 - product id: 52779807, thử lại 2/3
+2025-09-29 16:14:36,885 WARNING: Lỗi HTTP 429 - product id: 52779572, thử lại 2/3
+2025-09-29 16:14:36,973 WARNING: Lỗi HTTP 429 - product id: 52781066, thử lại 2/3
+2025-09-29 16:14:36,982 WARNING: Lỗi HTTP 429 - product id: 52785670, thử lại 2/3
+2025-09-29 16:14:37,750 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53492237
+2025-09-29 16:14:39,411 WARNING: Lỗi HTTP 429 - product id: 52397704, thử lại 1/3
+2025-09-29 16:14:40,804 WARNING: Lỗi HTTP 429 - product id: 52585402, thử lại 1/3
+2025-09-29 16:14:41,168 WARNING: Lỗi HTTP 429 - product id: 52631881, thử lại 1/3
+2025-09-29 16:14:41,263 WARNING: Lỗi HTTP 429 - product id: 52645932, thử lại 1/3
+2025-09-29 16:14:41,297 WARNING: Lỗi HTTP 429 - product id: 52647490, thử lại 1/3
+2025-09-29 16:14:41,323 WARNING: Lỗi HTTP 429 - product id: 52649555, thử lại 1/3
+2025-09-29 16:14:41,580 WARNING: Lỗi HTTP 429 - product id: 52669088, thử lại 1/3
+2025-09-29 16:14:41,580 WARNING: Lỗi HTTP 429 - product id: 52665749, thử lại 1/3
+2025-09-29 16:14:41,646 WARNING: Lỗi HTTP 429 - product id: 52672423, thử lại 1/3
+2025-09-29 16:14:41,681 WARNING: Lỗi HTTP 429 - product id: 52673690, thử lại 1/3
+2025-09-29 16:14:41,701 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52649564
+2025-09-29 16:14:42,085 WARNING: Lỗi HTTP 429 - product id: 52725924, thử lại 1/3
+2025-09-29 16:14:42,089 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52659824
+2025-09-29 16:14:45,328 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 52649555
+2025-09-29 16:14:45,855 WARNING: Lỗi HTTP 429 - product id: 53641134, thử lại 1/3
+2025-09-29 16:14:45,930 WARNING: Lỗi HTTP 429 - product id: 53645356, thử lại 1/3
+2025-09-29 16:14:49,098 INFO: Đã commit batch 25 (1000 sản phẩm)
+2025-09-29 16:14:49,130 INFO: Đã ghi 990 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_25_990_ids.csv
+2025-09-29 16:14:49,175 INFO: Đã insert 990 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_25_990_ids.csv vào database PostgeSQL
+2025-09-29 16:14:49,218 INFO: Bắt đầu crawl batch 26 (1000 sản phẩm)
+2025-09-29 16:14:49,355 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53837553
+2025-09-29 16:14:49,408 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53839813
+2025-09-29 16:14:49,454 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53840242
+2025-09-29 16:14:49,860 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53838886
+2025-09-29 16:14:51,756 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54368341
+2025-09-29 16:14:52,005 WARNING: Lỗi HTTP 429 - product id: 54392093, thử lại 1/3
+2025-09-29 16:14:52,037 WARNING: Lỗi HTTP 429 - product id: 54399384, thử lại 1/3
+2025-09-29 16:14:52,142 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54383608
+2025-09-29 16:14:52,722 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54442572
+2025-09-29 16:14:52,804 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54393674
+2025-09-29 16:14:53,020 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54393642
+2025-09-29 16:14:53,125 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54393657
+2025-09-29 16:14:54,261 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54683588
+2025-09-29 16:14:54,368 WARNING: Lỗi HTTP 429 - product id: 54753665, thử lại 1/3
+2025-09-29 16:14:54,457 WARNING: Lỗi HTTP 429 - product id: 54782290, thử lại 1/3
+2025-09-29 16:14:54,507 WARNING: Lỗi HTTP 429 - product id: 54787016, thử lại 1/3
+2025-09-29 16:14:54,695 WARNING: Lỗi HTTP 429 - product id: 54814881, thử lại 1/3
+2025-09-29 16:14:54,704 WARNING: Lỗi HTTP 429 - product id: 54815750, thử lại 1/3
+2025-09-29 16:14:57,202 WARNING: Lỗi HTTP 429 - product id: 54016836, thử lại 1/3
+2025-09-29 16:14:57,209 WARNING: Lỗi HTTP 429 - product id: 54019640, thử lại 1/3
+2025-09-29 16:14:57,233 WARNING: Lỗi HTTP 429 - product id: 54025677, thử lại 1/3
+2025-09-29 16:14:57,379 WARNING: Lỗi HTTP 429 - product id: 54031700, thử lại 1/3
+2025-09-29 16:14:57,533 WARNING: Lỗi HTTP 429 - product id: 54080141, thử lại 1/3
+2025-09-29 16:14:58,756 WARNING: Lỗi HTTP 429 - product id: 54383765, thử lại 1/3
+2025-09-29 16:14:58,963 WARNING: Lỗi HTTP 429 - product id: 54389087, thử lại 1/3
+2025-09-29 16:14:59,035 WARNING: Lỗi HTTP 429 - product id: 54389460, thử lại 1/3
+2025-09-29 16:14:59,036 WARNING: Lỗi HTTP 429 - product id: 54389477, thử lại 1/3
+2025-09-29 16:14:59,066 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54383631
+2025-09-29 16:14:59,070 WARNING: Lỗi HTTP 429 - product id: 54389485, thử lại 1/3
+2025-09-29 16:14:59,176 WARNING: Lỗi HTTP 429 - product id: 54404713, thử lại 1/3
+2025-09-29 16:14:59,364 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54393665
+2025-09-29 16:14:59,987 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54442551
+2025-09-29 16:15:00,499 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54442554
+2025-09-29 16:15:01,126 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54583105
+2025-09-29 16:15:02,477 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 54745696
+2025-09-29 16:15:04,649 WARNING: Lỗi HTTP 429 - product id: 53764248, thử lại 1/3
+2025-09-29 16:15:04,927 WARNING: Lỗi HTTP 429 - product id: 53827975, thử lại 1/3
+2025-09-29 16:15:04,936 WARNING: Lỗi HTTP 429 - product id: 53831893, thử lại 1/3
+2025-09-29 16:15:04,948 WARNING: Lỗi HTTP 429 - product id: 53833594, thử lại 1/3
+2025-09-29 16:15:04,994 WARNING: Lỗi HTTP 429 - product id: 53833727, thử lại 1/3
+2025-09-29 16:15:05,034 WARNING: Lỗi HTTP 429 - product id: 53839583, thử lại 1/3
+2025-09-29 16:15:05,041 WARNING: Lỗi HTTP 429 - product id: 53872031, thử lại 1/3
+2025-09-29 16:15:05,453 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53837414
+2025-09-29 16:15:06,013 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53836822
+2025-09-29 16:15:08,161 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 53839583
+2025-09-29 16:15:08,221 INFO: Đã commit batch 26 (1000 sản phẩm)
+2025-09-29 16:15:08,261 INFO: Đã ghi 980 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_26_980_ids.csv
+2025-09-29 16:15:08,305 INFO: Đã insert 980 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_26_980_ids.csv vào database PostgeSQL
+2025-09-29 16:15:08,349 INFO: Bắt đầu crawl batch 27 (1000 sản phẩm)
+2025-09-29 16:15:09,869 WARNING: Lỗi HTTP 429 - product id: 55521000, thử lại 1/3
+2025-09-29 16:15:09,920 WARNING: Lỗi HTTP 429 - product id: 55553611, thử lại 1/3
+2025-09-29 16:15:09,937 WARNING: Lỗi HTTP 429 - product id: 55553748, thử lại 1/3
+2025-09-29 16:15:09,957 WARNING: Lỗi HTTP 429 - product id: 55569030, thử lại 1/3
+2025-09-29 16:15:09,962 WARNING: Lỗi HTTP 429 - product id: 55568841, thử lại 1/3
+2025-09-29 16:15:10,057 WARNING: Lỗi HTTP 429 - product id: 55585435, thử lại 1/3
+2025-09-29 16:15:20,057 WARNING: Lỗi HTTP 429 - product id: 56021245, thử lại 1/3
+2025-09-29 16:15:20,058 WARNING: Lỗi HTTP 429 - product id: 56028468, thử lại 1/3
+2025-09-29 16:15:20,159 WARNING: Lỗi HTTP 429 - product id: 56046483, thử lại 1/3
+2025-09-29 16:15:20,282 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 55886475
+2025-09-29 16:15:21,914 WARNING: Lỗi HTTP 429 - product id: 56433273, thử lại 1/3
+2025-09-29 16:15:22,961 WARNING: Lỗi HTTP 429 - product id: 56714558, thử lại 1/3
+2025-09-29 16:15:23,258 WARNING: Lỗi HTTP 429 - product id: 56798095, thử lại 1/3
+2025-09-29 16:15:23,360 WARNING: Lỗi HTTP 429 - product id: 56819130, thử lại 1/3
+2025-09-29 16:15:23,462 WARNING: Lỗi HTTP 429 - product id: 56830887, thử lại 1/3
+2025-09-29 16:15:26,648 INFO: Đã commit batch 27 (1000 sản phẩm)
+2025-09-29 16:15:26,679 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_27_999_ids.csv
+2025-09-29 16:15:26,724 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_27_999_ids.csv vào database PostgeSQL
+2025-09-29 16:15:26,768 INFO: Bắt đầu crawl batch 28 (1000 sản phẩm)
+2025-09-29 16:15:28,865 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 57522629
+2025-09-29 16:15:30,733 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 57763788
+2025-09-29 16:15:54,938 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 16:15:54,947 INFO: Bảng product_list hiện có 200000 product_id
+2025-09-29 16:15:54,947 INFO: Bảng product_list đã có đủ dữ liệu, bỏ qua insert
+2025-09-29 16:15:55,015 INFO: Đã update lại status của 28 về pending và tiến hành crawl lại batch
+2025-09-29 16:15:55,025 INFO: Bắt đầu crawl batch 28 (1000 sản phẩm)
+2025-09-29 16:15:59,249 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 57522629
+2025-09-29 16:16:00,282 WARNING: Lỗi HTTP 429 - product id: 57757108, thử lại 1/3
+2025-09-29 16:16:00,373 WARNING: Lỗi HTTP 429 - product id: 57759364, thử lại 1/3
+2025-09-29 16:16:00,651 WARNING: Lỗi HTTP 429 - product id: 57760393, thử lại 1/3
+2025-09-29 16:16:01,034 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 57763788
+2025-09-29 16:16:01,540 WARNING: Lỗi HTTP 429 - product id: 57837376, thử lại 1/3
+2025-09-29 16:16:14,307 WARNING: Lỗi HTTP 429 - product id: 57857591, thử lại 1/3
+2025-09-29 16:16:16,914 WARNING: Lỗi HTTP 429 - product id: 57030506, thử lại 1/3
+2025-09-29 16:16:17,506 WARNING: Lỗi HTTP 429 - product id: 56948396, thử lại 1/3
+2025-09-29 16:16:20,680 INFO: Đã commit batch 28 (1000 sản phẩm)
+2025-09-29 16:16:20,710 INFO: Đã ghi 998 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_28_998_ids.csv
+2025-09-29 16:16:20,750 INFO: Đã insert 998 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_28_998_ids.csv vào database PostgeSQL
+2025-09-29 16:16:20,781 INFO: Đã update lại status của 29 về pending và tiến hành crawl lại batch
+2025-09-29 16:16:20,790 INFO: Bắt đầu crawl batch 29 (1000 sản phẩm)
+2025-09-29 16:16:22,588 WARNING: Lỗi HTTP 429 - product id: 58541069, thử lại 1/3
+2025-09-29 16:16:31,551 WARNING: Lỗi HTTP 429 - product id: 58716137, thử lại 1/3
+2025-09-29 16:16:31,693 WARNING: Lỗi HTTP 429 - product id: 58746685, thử lại 1/3
+2025-09-29 16:16:31,724 WARNING: Lỗi HTTP 429 - product id: 58792373, thử lại 1/3
+2025-09-29 16:16:31,832 WARNING: Lỗi HTTP 429 - product id: 58805179, thử lại 1/3
+2025-09-29 16:16:32,009 WARNING: Lỗi HTTP 429 - product id: 58811070, thử lại 1/3
+2025-09-29 16:16:32,101 WARNING: Lỗi HTTP 429 - product id: 58815542, thử lại 1/3
+2025-09-29 16:16:32,325 WARNING: Lỗi HTTP 429 - product id: 58855259, thử lại 1/3
+2025-09-29 16:16:34,831 WARNING: Lỗi HTTP 429 - product id: 59151723, thử lại 1/3
+2025-09-29 16:16:35,397 WARNING: Lỗi HTTP 429 - product id: 59203975, thử lại 1/3
+2025-09-29 16:16:35,539 WARNING: Lỗi HTTP 429 - product id: 59225841, thử lại 1/3
+2025-09-29 16:16:35,593 WARNING: Lỗi HTTP 429 - product id: 59227700, thử lại 1/3
+2025-09-29 16:16:35,739 WARNING: Lỗi HTTP 429 - product id: 59259633, thử lại 1/3
+2025-09-29 16:16:35,853 WARNING: Lỗi HTTP 429 - product id: 58177442, thử lại 1/3
+2025-09-29 16:16:35,857 WARNING: Lỗi HTTP 429 - product id: 58187983, thử lại 1/3
+2025-09-29 16:16:36,259 WARNING: Lỗi HTTP 429 - product id: 58214464, thử lại 1/3
+2025-09-29 16:16:36,310 WARNING: Lỗi HTTP 429 - product id: 58216940, thử lại 1/3
+2025-09-29 16:16:36,476 WARNING: Lỗi HTTP 429 - product id: 58180654, thử lại 1/3
+2025-09-29 16:16:36,477 WARNING: Lỗi HTTP 429 - product id: 58216403, thử lại 1/3
+2025-09-29 16:16:36,564 WARNING: Lỗi HTTP 429 - product id: 58189522, thử lại 1/3
+2025-09-29 16:16:36,675 WARNING: Lỗi HTTP 429 - product id: 58209776, thử lại 1/3
+2025-09-29 16:16:36,678 WARNING: Lỗi HTTP 429 - product id: 58209120, thử lại 1/3
+2025-09-29 16:16:36,704 WARNING: Lỗi HTTP 429 - product id: 58208572, thử lại 1/3
+2025-09-29 16:16:36,805 WARNING: Lỗi HTTP 429 - product id: 58218969, thử lại 1/3
+2025-09-29 16:16:39,994 INFO: Đã commit batch 29 (1000 sản phẩm)
+2025-09-29 16:16:40,035 INFO: Đã ghi 1000 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_29_1000_ids.csv
+2025-09-29 16:16:40,078 INFO: Đã insert 1000 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_29_1000_ids.csv vào database PostgeSQL
+2025-09-29 16:16:40,110 INFO: Đã update lại status của 30 về pending và tiến hành crawl lại batch
+2025-09-29 16:16:40,119 INFO: Bắt đầu crawl batch 30 (1000 sản phẩm)
+2025-09-29 16:16:40,238 WARNING: Lỗi HTTP 429 - product id: 59471057, thử lại 1/3
+2025-09-29 16:16:44,704 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 63548262
+2025-09-29 16:16:44,785 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 63582317
+2025-09-29 16:16:44,940 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 63595377
+2025-09-29 16:16:45,459 WARNING: Lỗi HTTP 429 - product id: 64859023, thử lại 1/3
+2025-09-29 16:16:45,562 WARNING: Lỗi HTTP 429 - product id: 65069481, thử lại 1/3
+2025-09-29 16:16:46,054 WARNING: Lỗi HTTP 429 - product id: 65473715, thử lại 1/3
+2025-09-29 16:16:47,043 WARNING: Lỗi HTTP 429 - product id: 66439266, thử lại 1/3
+2025-09-29 16:16:48,581 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 59478772
+2025-09-29 16:16:52,858 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 63600586
+2025-09-29 16:16:52,891 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 63507919
+2025-09-29 16:16:53,233 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 63598759
+2025-09-29 16:16:55,444 WARNING: Lỗi HTTP 429 - product id: 59385965, thử lại 1/3
+2025-09-29 16:16:58,608 INFO: Đã commit batch 30 (1000 sản phẩm)
+2025-09-29 16:16:58,646 INFO: Đã ghi 993 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_30_993_ids.csv
+2025-09-29 16:16:58,682 INFO: Đã insert 993 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_30_993_ids.csv vào database PostgeSQL
+2025-09-29 16:16:58,713 INFO: Đã update lại status của 31 về pending và tiến hành crawl lại batch
+2025-09-29 16:16:58,722 INFO: Bắt đầu crawl batch 31 (1000 sản phẩm)
+2025-09-29 16:17:06,059 WARNING: Lỗi HTTP 429 - product id: 68141319, thử lại 1/3
+2025-09-29 16:17:06,069 WARNING: Lỗi HTTP 429 - product id: 68141321, thử lại 1/3
+2025-09-29 16:17:06,267 WARNING: Lỗi HTTP 429 - product id: 66618312, thử lại 1/3
+2025-09-29 16:17:06,270 WARNING: Lỗi HTTP 429 - product id: 66618565, thử lại 1/3
+2025-09-29 16:17:06,319 WARNING: Lỗi HTTP 429 - product id: 66615228, thử lại 1/3
+2025-09-29 16:17:06,319 WARNING: Lỗi HTTP 429 - product id: 66618310, thử lại 1/3
+2025-09-29 16:17:06,392 WARNING: Lỗi HTTP 429 - product id: 66622544, thử lại 1/3
+2025-09-29 16:17:06,932 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 68139092
+2025-09-29 16:17:07,024 WARNING: Lỗi HTTP 429 - product id: 66780616, thử lại 1/3
+2025-09-29 16:17:08,410 WARNING: Lỗi HTTP 429 - product id: 67182900, thử lại 1/3
+2025-09-29 16:17:08,519 WARNING: Lỗi HTTP 429 - product id: 67199892, thử lại 1/3
+2025-09-29 16:17:13,287 WARNING: Lỗi HTTP 429 - product id: 68066945, thử lại 1/3
+2025-09-29 16:17:13,401 WARNING: Lỗi HTTP 429 - product id: 68082497, thử lại 1/3
+2025-09-29 16:17:13,449 WARNING: Lỗi HTTP 429 - product id: 68084374, thử lại 1/3
+2025-09-29 16:17:13,665 WARNING: Lỗi HTTP 429 - product id: 68116437, thử lại 1/3
+2025-09-29 16:17:14,422 WARNING: Lỗi HTTP 429 - product id: 66540537, thử lại 1/3
+2025-09-29 16:17:14,479 WARNING: Lỗi HTTP 429 - product id: 66537155, thử lại 1/3
+2025-09-29 16:17:14,527 WARNING: Lỗi HTTP 429 - product id: 66455154, thử lại 1/3
+2025-09-29 16:17:14,529 WARNING: Lỗi HTTP 429 - product id: 66450552, thử lại 1/3
+2025-09-29 16:17:14,921 WARNING: Lỗi HTTP 429 - product id: 66569156, thử lại 1/3
+2025-09-29 16:17:14,926 WARNING: Lỗi HTTP 429 - product id: 66567119, thử lại 1/3
+2025-09-29 16:17:15,017 WARNING: Lỗi HTTP 429 - product id: 66598528, thử lại 1/3
+2025-09-29 16:17:15,017 WARNING: Lỗi HTTP 429 - product id: 66592828, thử lại 1/3
+2025-09-29 16:17:18,322 INFO: Đã commit batch 31 (1000 sản phẩm)
+2025-09-29 16:17:18,353 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_31_999_ids.csv
+2025-09-29 16:17:18,394 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_31_999_ids.csv vào database PostgeSQL
+2025-09-29 16:17:18,424 INFO: Đã update lại status của 32 về pending và tiến hành crawl lại batch
+2025-09-29 16:17:18,433 INFO: Bắt đầu crawl batch 32 (1000 sản phẩm)
+2025-09-29 16:17:25,214 WARNING: Lỗi HTTP 429 - product id: 69359489, thử lại 1/3
+2025-09-29 16:17:25,215 WARNING: Lỗi HTTP 429 - product id: 69385287, thử lại 1/3
+2025-09-29 16:17:25,262 WARNING: Lỗi HTTP 429 - product id: 69343384, thử lại 1/3
+2025-09-29 16:17:33,291 WARNING: Lỗi HTTP 404: Không tim thấy product id - product id: 69090355
+2025-09-29 16:17:37,383 INFO: Đã commit batch 32 (1000 sản phẩm)
+2025-09-29 16:17:37,420 INFO: Đã ghi 999 sản phẩm vào file /home/quannh/projects_de/Lab_01/output/products_batch_32_999_ids.csv
+2025-09-29 16:17:37,457 INFO: Đã insert 999 sản phẩm từ file /home/quannh/projects_de/Lab_01/output/products_batch_32_999_ids.csv vào database PostgeSQL
+2025-09-29 16:17:37,487 INFO: Đã update lại status của 33 về pending và tiến hành crawl lại batch
+2025-09-29 16:17:37,496 INFO: Bắt đầu crawl batch 33 (1000 sản phẩm)

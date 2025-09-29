@@ -71,7 +71,7 @@ async def process_batch(session, db_conn, sem, batch_id, ids):
             updates.append((status, message, product_id))
             if product is not None:
                 products.append(product)
-    await db_conn.executemany("UPDATE product_list SET status=?, message=?, last_update=CURRENT_TIMESTAMP WHERE product_id=?",updates)
+    await db_conn.executemany("UPDATE product_list SET status=$1, message=$2, last_update=CURRENT_TIMESTAMP WHERE product_id=$3",updates)
     logging.info(f"Đã commit batch {batch_id} ({len(updates)} sản phẩm)")
     if products:
         try:
@@ -82,7 +82,7 @@ async def process_batch(session, db_conn, sem, batch_id, ids):
             logging.info(f"Đã ghi {len(products)} sản phẩm vào file {out_file}")
             try:
                 await db_conn.execute("TRUNCATE TABLE product_info_stg")
-                with open(out_file, "r", encoding="utf-8") as f:
+                with open(out_file, "rb") as f:
                     await db_conn.copy_to_table(
                         "product_info_stg",
                         source=f,
@@ -110,7 +110,7 @@ async def process_batch(session, db_conn, sem, batch_id, ids):
 
 
 async def export_summary(db_conn):
-    status_count = db_conn.fetchrow("""
+    status_count = await db_conn.fetchrow("""
         SELECT
             status
             ,message
@@ -119,7 +119,7 @@ async def export_summary(db_conn):
         GROUP BY status, message
     """)
 
-    min_time, max_time = db_conn.fetchrow("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM product_list")
+    min_time, max_time = await db_conn.fetchrow("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM product_list")
 
     start_time = datetime.fromisoformat(min_time)
     end_time = datetime.fromisoformat(max_time)

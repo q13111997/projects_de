@@ -10,7 +10,7 @@
 
 ## Cấu trúc thư mục
 ```bash
-project_2/
+Lab_01/
 ├── configs/
 │   └── supervisord.conf   # file cấu hình Supervisor
 ├── data/                  # db sqlite crawl.db lưu trạng thái crawl của từng product id
@@ -29,34 +29,34 @@ project_2/
 ## Hướng dẫn sử dụng Supervisor để chạy project
 ## 1. Khởi tạo Supervisor
 ```python
-supervisord -c /home/<user>/projects_de/project_2/configs/supervisord.conf
+supervisord -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf
 ```
 ## 2. Quản lý tiến trình crawl bằng supervisorctl
 ### Xem trạng thái job crawl
 ```python
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf status
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf status
 ```
 ### Start job crawl
 ```python
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf start crawl
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf start crawl
 ```
 ### Stop job crawl
 ```python
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf stop crawl
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf stop crawl
 ```
 ### Restart job crawl
 ```python
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf restart crawl
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf restart crawl
 ```
 ### Reload Supervisor sau khi thay đổi config
 ```python
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf reread
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf update
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf reread
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf update
 ```
 ## Test autorestart
 ### B1: Lấy PID tiến trình crawl
 ```bash
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf status
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf status
 ```
 ### B2: Kill tiến trình
 ```bash
@@ -64,5 +64,5 @@ kill -9 <pid>
 ```
 ### B3: Kiểm tra lại trạng thái (pid thay đổi là job đã được restart thành công)
 ```bash
-supervisorctl -c /home/<user>/projects_de/project_2/configs/supervisord.conf status
+supervisorctl -c /home/quannh/projects_de/Lab_01/configs/supervisord.conf status
 ```

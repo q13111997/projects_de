@@ -25,7 +25,7 @@ logging.basicConfig(
     ],
 )
 
-def load_config(filename='database.ini', section='postgresql'):
+def load_config(filename=db_config, section='postgresql'):
     parser = ConfigParser()
     parser.read(filename)
 

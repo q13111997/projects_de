@@ -1,9 +1,8 @@
-import asyncio
 import pandas as pd
 import logging
 import asyncpg
 from configparser import ConfigParser
-from src.configs import file_path, db_file, load_config, db_config
+from src.configs import file_path, db_config
 
 def load_config(filename=db_config, section='postgresql'):
     parser = ConfigParser()
@@ -74,8 +73,7 @@ async def init_db(file_path):
                 UPDATE product_list p
                 SET batch_id = t1.batch_id
                 FROM t1
-                WHERE p.product_id = t1.product_id
-                  AND p.batch_id IS NULL;
+                WHERE p.product_id = t1.product_id;
             """)
         logging.info('Đã tạo batch_id cho bảng product_list')
     else:

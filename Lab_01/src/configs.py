@@ -9,6 +9,7 @@ db_file = base_dir / "data" / "crawl.db"
 output_dir = base_dir / "output"
 summary_file = base_dir / "logs" /"crawl_summary.txt"
 log_file = base_dir / "logs" / "crawl_log.log"
+db_config = base_dir / "src" / "database.ini"
 header = {
     "User-Agent": "Mozilla/5.0",
     "Accept": "application/json"

@@ -1,49 +1,77 @@
+import asyncio
 import pandas as pd
-import aiosqlite
 import logging
 import asyncpg
-from src.configs import file_path, db_file, load_config
-
-async def init_db_1(file_path):
-    df = pd.read_excel(file_path)
-    ids = df["id"].tolist()
-    params = await load_config()
-    conn = await asyncpg.connect(**params)
+from configparser import ConfigParser
+from src.configs import file_path, db_file, load_config, db_config
 
 
-# Khởi tạo db và import thông tin product_id cần crawl từ file xlsx
+def load_config(filename=db_config, section='postgresql'):
+    parser = ConfigParser()
+    parser.read(filename)
+    # get section, default to postgresql
+    config = {}
+    if parser.has_section(section):
+        params = parser.items(section)
+        for param in params:
+            config[param[0]] = param[1]
+    else:
+        raise Exception('Section {0} not found in the {1} file'.format(section, filename))
+    return config
+
 async def init_db(file_path):
     df = pd.read_excel(file_path)
-    ids = df["id"].tolist()
-    async with aiosqlite.connect(db_file) as db:
-        await db.execute("""
-        CREATE TABLE IF NOT EXISTS products (
-            batch_id INTEGER,
-            product_id INTEGER PRIMARY KEY,
-            status TEXT DEFAULT 'Pending',
-            message TEXT,
-            last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
-        """)
-        await db.executemany(
-            "INSERT OR IGNORE INTO products (product_id) VALUES (?)",
-            [(id,) for id in ids]
-        )
-        await db.commit()
-        await db.execute("""
-            WITH t1 AS (
-                SELECT 
-                    product_id,
-                    CAST((ROW_NUMBER() OVER (ORDER BY product_id) - 1) / 1000 AS INTEGER) AS batch_id
-                FROM products
+    ids = [(int(x),) for x in df["id"].tolist()]
+    params = load_config()
+    conn = await asyncpg.connect(**params)
+    await conn.execute("""
+            CREATE TABLE IF NOT EXISTS product_info (
+                id INT PRIMARY KEY,
+                name TEXT NOT NULL,
+                url_key TEXT,
+                price NUMERIC(15,2),
+                description TEXT,
+                images TEXT  
             )
-            UPDATE products
-            SET batch_id = (
-                SELECT t1.batch_id
+            """)
+    await conn.execute("""
+            CREATE TABLE IF NOT EXISTS product_list (
+                batch_id INTEGER,
+                product_id INTEGER PRIMARY KEY,
+                status TEXT DEFAULT 'Pending',
+                message TEXT,
+                last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+            """)
+    logging.info('Tạo thành công bảng product_info và product_list!')
+    count_id = await conn.fetchval("SELECT COUNT(*) FROM product_list")
+    logging.info(f'Bảng product_info hiện có {count_id} product_id')
+    if count_id != len(ids):
+        await conn.execute("TRUNCATE TABLE product_list RESTART IDENTITY")
+        logging.info('Đã xóa dữ liệu trong bảng product_info')
+        await conn.copy_records_to_table(
+            "products",
+            records=ids,
+            columns=["product_id"]
+        )
+        logging.info('Insert dữ liệu thành công vào bảng product_info')
+        await conn.execute("""
+                WITH t1 AS (
+                    SELECT 
+                        product_id,
+                        CAST((ROW_NUMBER() OVER (ORDER BY product_id) - 1) / 1000 AS INTEGER) AS batch_id
+                    FROM products
+                )
+                UPDATE products p
+                SET batch_id = t1.batch_id
                 FROM t1
-                WHERE t1.product_id = products.product_id
-            )
-            WHERE batch_id IS NULL;
-        """)
-        await db.commit()
-    logging.info(f"Đã insert thành công {len(ids)} product_id vào bảng products trong crawl.db")
+                WHERE p.product_id = t1.product_id
+                  AND p.batch_id IS NULL;
+            """)
+        logging.info('Đã tạo batch_id cho bảng product_info')
+    else:
+        logging.info('Bảng product_info đã có đủ dữ liệu, bỏ qua insert')
+    await conn.close()
+
+if __name__ == '__main__':
+    asyncio.run(init_db(file_path))

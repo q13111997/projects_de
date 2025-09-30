@@ -110,7 +110,7 @@ async def process_batch(session, db_conn, sem, batch_id, ids):
 
 
 async def export_summary(db_conn):
-    status_count = await db_conn.fetchrow("""
+    status_count = await db_conn.fetch("""
         SELECT
             status
             ,message
@@ -119,11 +119,15 @@ async def export_summary(db_conn):
         GROUP BY status, message
     """)
 
-    min_time, max_time = await db_conn.fetchrow("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM product_list")
+    row = await db_conn.fetchrow("SELECT MIN(last_update) min_time, MAX(last_update) max_time FROM product_list")
+    min_time, max_time = row["min_time"], row["max_time"]
 
-    start_time = datetime.fromisoformat(min_time)
-    end_time = datetime.fromisoformat(max_time)
-    duration = end_time - start_time
+    if min_time and max_time:
+        # start_time = datetime.fromisoformat(min_time)
+        # end_time = datetime.fromisoformat(max_time)
+        duration = max_time - min_time
+    else:
+        duration = None
 
     with open(summary_file, "w", encoding="utf-8") as f:
         f.write("CRAWL JOB SUMMARY:\n")

@@ -4,13 +4,10 @@ import numpy as np
 data_file = 'tmdb-movies.csv'
 df = pd.read_csv(data_file)
 
-
 df.drop_duplicates(inplace=True)
 df['release_date'] = pd.to_datetime(df['release_date'], format='%m/%d/%y', errors='coerce')
 df['revenue'] = df['revenue'].replace(0, np.nan)
 df['budget'] = df['budget'].replace(0, np.nan)
-
-print(df.info())
 
 # Sắp xếp các bộ phim theo ngày phát hành giảm dần rồi lưu ra một file mới
 df_1 = df.sort_values('release_date',ascending=False)

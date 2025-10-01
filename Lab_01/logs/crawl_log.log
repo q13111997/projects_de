@@ -11630,3 +11630,37 @@
 2025-09-29 22:06:05,250 INFO: Không còn sản phẩm crawl lỗi khác 404
 2025-09-29 22:06:05,250 INFO: Hoàn thành crawl toàn bộ sản phẩm
 2025-09-29 22:06:05,280 INFO: Đã tổng hợp kết quả crawl vào file /home/quannh/projects_de/Lab_01/logs/crawl_summary.txt
+2025-09-29 22:25:47,230 INFO: Tạo thành công bảng product_info và product_list!
+2025-09-29 22:25:47,238 INFO: Bảng product_list hiện có 200000 product_id
+2025-09-29 22:25:47,239 INFO: Bảng product_list đã có đủ dữ liệu, bỏ qua insert
+2025-09-29 22:36:24,434 ERROR: Lỗi kết nối không thể khắc phục: password authentication failed for user "quannh"
+2025-09-29 22:36:24,435 ERROR: Không thể tạo bảng vì lỗi kết nối tới database PostgreSQL
+2025-09-29 22:36:24,473 ERROR: Lỗi kết nối không thể khắc phục: password authentication failed for user "quannh"
+2025-09-29 22:36:24,473 ERROR: Dừng chương trình vì không kết nối được tới PostgreSQL
+2025-09-29 22:36:47,425 WARNING: Kết nối tới database PostgreSQL thất bại lân 1: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:36:47,425 INFO: Thử lại sau 5 giây...
+2025-09-29 22:36:52,432 WARNING: Kết nối tới database PostgreSQL thất bại lân 2: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:36:52,432 INFO: Thử lại sau 5 giây...
+2025-09-29 22:36:57,436 WARNING: Kết nối tới database PostgreSQL thất bại lân 3: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:36:57,437 ERROR: Đã thử kết nối lại 3 lần, không thể kết nối tới database PostgreSQL
+2025-09-29 22:36:57,437 ERROR: Không thể tạo bảng vì lỗi kết nối tới database PostgreSQL
+2025-09-29 22:36:57,438 WARNING: Kết nối tới database PostgreSQL thất bại lân 1: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:36:57,438 INFO: Thử lại sau 5 giây...
+2025-09-29 22:37:02,446 WARNING: Kết nối tới database PostgreSQL thất bại lân 2: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:37:02,446 INFO: Thử lại sau 5 giây...
+2025-09-29 22:37:07,453 WARNING: Kết nối tới database PostgreSQL thất bại lân 3: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:37:07,453 ERROR: Đã thử kết nối lại 3 lần, không thể kết nối tới database PostgreSQL
+2025-09-29 22:37:07,453 ERROR: Dừng chương trình vì không kết nối được tới PostgreSQL
+2025-09-29 22:42:02,054 WARNING: Kết nối tới database PostgreSQL thất bại lân 1: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:42:02,055 INFO: Thử lại sau 5 giây...
+2025-09-29 22:42:07,062 WARNING: Kết nối tới database PostgreSQL thất bại lân 2: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:42:07,062 INFO: Thử lại sau 5 giây...
+2025-09-29 22:42:12,069 WARNING: Kết nối tới database PostgreSQL thất bại lân 3: [Errno -3] Temporary failure in name resolution
+2025-09-29 22:42:12,069 ERROR: Đã thử kết nối lại 3 lần, không thể kết nối tới database PostgreSQL
+2025-09-29 22:42:12,069 ERROR: Không thể tạo bảng vì lỗi kết nối tới database PostgreSQL
+2025-09-29 22:42:12,069 ERROR: Dừng chương trình vì không khởi tạo được DB
+2025-10-01 22:17:08,363 INFO: Kết nối database PostgreSQL thành công!
+2025-10-01 22:17:08,369 INFO: Tạo thành công bảng product_info và product_list!
+2025-10-01 22:17:08,415 INFO: Bảng product_list hiện có 200000 product_id
+2025-10-01 22:17:08,415 INFO: Bảng product_list đã có đủ dữ liệu, bỏ qua insert
+2025-10-01 22:17:08,421 ERROR: Dừng chương trình vì không kết nối được tới database PostgreSQL để tạo bảng

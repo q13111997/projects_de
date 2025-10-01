@@ -3,16 +3,22 @@ import aiohttp
 import logging
 import os
 import asyncpg
-from src.db import init_db
+from src.db import init_db, connect_db
 from src.crawler import fetch_product, process_batch, export_summary
 from src.configs import output_dir, file_path, concurrency, limit_connect, load_config
 
 async def main():
     os.makedirs(output_dir, exist_ok=True)
-    await init_db(file_path)
+    init_done = await init_db(file_path)
+    if not init_done:
+        logging.error("Dừng chương trình vì không kết nối được tới database PostgreSQL để tạo bảng")
+        return
     sem = asyncio.Semaphore(concurrency)
     params = load_config()
-    db_conn = await asyncpg.connect(**params)
+    db_conn = await connect_db(params)
+    if db_conn is None:
+        logging.error("Dừng chương trình vì không kết nối được tới PostgreSQL")
+        return
     conn = aiohttp.TCPConnector(limit=limit_connect)
     async with aiohttp.ClientSession(connector=conn) as session:
         while True:

@@ -1,3 +1,4 @@
+import asyncio
 import pandas as pd
 import logging
 import asyncpg
@@ -21,7 +22,10 @@ async def init_db(file_path):
     df = pd.read_excel(file_path)
     ids = [(int(x),) for x in df["id"].tolist()]
     params = load_config()
-    conn = await asyncpg.connect(**params)
+    conn = await connect_db(params)
+    if conn is None:
+        logging.error("Không thể tạo bảng vì lỗi kết nối tới database PostgreSQL")
+        return
     await conn.execute("""
             CREATE TABLE IF NOT EXISTS product_info_stg (
                 id INT,
@@ -79,3 +83,21 @@ async def init_db(file_path):
     else:
         logging.info('Bảng product_list đã có đủ dữ liệu, bỏ qua insert')
     await conn.close()
+
+async def connect_db(params, retries=3, delay=5):
+    for attemp in range(1,retries+1):
+        try:
+            db_conn = await asyncpg.connect(**params)
+            logging.info("Kết nối database PostgreSQL thành công!")
+            return db_conn
+        except (asyncpg.InvalidPasswordError,asyncpg.InvalidCatalogNameError) as e:
+            logging.error(f"Lỗi kết nối không thể khắc phục: {e}")
+            return None
+        except Exception as e:
+            logging.warning(f"Kết nối tới database PostgreSQL thất bại lân {attemp}: {e}")
+            if attemp < retries:
+                logging.info(f"Thử lại sau {delay} giây...")
+                await asyncio.sleep(delay)
+            else:
+                logging.error(f"Đã thử kết nối lại {retries} lần, không thể kết nối tới database PostgreSQL")
+                return None

@@ -1,6 +1,0 @@
-Những bộ phim có doanh thu cao nhất:
-+ Avatar (Doanh thu: 2781505847.0)
-
-Những bộ phim có doanh thu thấp nhất:
-+ Shattered Glass (Doanh thu: 2.0)
-+ Mallrats (Doanh thu: 2.0)

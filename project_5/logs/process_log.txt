@@ -1,0 +1,81 @@
+2025-11-17 08:37:01 | INFO | -----BẮT ĐẦU collect_distinct_ip-----
+2025-11-17 08:37:01 | INFO | -----BẮT ĐẦU export_product_url-----
+2025-11-17 08:37:01 | INFO | Bắt đầu lấy danh sách disticnt ip...
+2025-11-17 08:37:01 | INFO | Tạo thành công bảng product_url_tmp trong PostgreSQL
+2025-11-17 08:37:01 | INFO | Bắt đầu lấy dữ liệu product_id, url từ mongodb
+2025-11-17 08:37:55 | INFO | Hoàn tất merge distinct IPs vào collection distinct_ips.
+2025-11-17 08:38:07 | INFO | Đã xóa 1 IP không hợp lệ trong collection distinct_ips.
+2025-11-17 08:38:08 | INFO | -----HOÀN THÀNH collect_distinct_ip-----
+2025-11-17 08:38:08 | INFO | -----BẮT ĐẦU export_file_location-----
+2025-11-17 08:38:38 | INFO | Đã ghi 1000000 dòng vào IPLocation_1.csv
+2025-11-17 08:39:07 | INFO | Đã ghi 1000000 dòng vào IPLocation_2.csv
+2025-11-17 08:39:35 | INFO | Đã ghi 1000000 dòng vào IPLocation_3.csv
+2025-11-17 08:39:42 | INFO | Đã ghi 239627 dòng vào IPLocation_4.csv
+2025-11-17 08:39:42 | INFO | Đã export 3239627 IP ra 4 file csv.
+2025-11-17 08:39:57 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 1000000 dòng
+2025-11-17 08:40:12 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 2000000 dòng
+2025-11-17 08:40:27 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 3000000 dòng
+2025-11-17 08:40:43 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 4000000 dòng
+2025-11-17 08:40:59 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 5000000 dòng
+2025-11-17 08:41:14 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 6000000 dòng
+2025-11-17 08:41:30 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 7000000 dòng
+2025-11-17 08:41:45 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 8000000 dòng
+2025-11-17 08:41:59 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 9000000 dòng
+2025-11-17 08:42:26 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 10000000 dòng
+2025-11-17 08:43:07 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 11000000 dòng
+2025-11-17 08:43:40 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 12000000 dòng
+2025-11-17 08:43:53 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 13000000 dòng
+2025-11-17 08:44:06 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 14000000 dòng
+2025-11-17 08:44:20 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 15000000 dòng
+2025-11-17 08:44:33 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 16000000 dòng
+2025-11-17 08:44:46 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 17000000 dòng
+2025-11-17 08:45:00 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 18000000 dòng
+2025-11-17 08:45:13 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 19000000 dòng
+2025-11-17 08:45:27 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 20000000 dòng
+2025-11-17 08:45:40 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 21000000 dòng
+2025-11-17 08:45:53 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 22000000 dòng
+2025-11-17 08:46:01 | INFO | Insert thành công 715596 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 22715596 dòng
+2025-11-17 08:46:01 | INFO | Bắt đầu xóa các bản ghi trùng lặp trong bảng product_url_tmp và lưu dữ liệu vào bảng product_url
+2025-11-17 08:46:10 | INFO | -----HOÀN THÀNH TOÀN BỘ QUY TRÌNH-----
+2025-11-17 08:53:34 | INFO | -----BẮT ĐẦU collect_distinct_ip-----
+2025-11-17 08:53:34 | INFO | -----BẮT ĐẦU export_product_url-----
+2025-11-17 08:53:34 | INFO | Bắt đầu lấy danh sách disticnt ip...
+2025-11-17 08:53:34 | INFO | Tạo thành công bảng product_url_tmp trong PostgreSQL
+2025-11-17 08:53:34 | INFO | Bắt đầu lấy dữ liệu product_id, url từ mongodb
+2025-11-17 08:54:30 | INFO | Hoàn tất merge distinct IPs vào collection distinct_ips.
+2025-11-17 08:54:39 | INFO | Đã xóa 1 IP không hợp lệ trong collection distinct_ips.
+2025-11-17 08:54:39 | INFO | -----HOÀN THÀNH collect_distinct_ip-----
+2025-11-17 08:54:39 | INFO | -----BẮT ĐẦU export_file_location-----
+2025-11-17 08:55:07 | INFO | Đã ghi 1000000 dòng vào IPLocation_1.csv
+2025-11-17 08:55:35 | INFO | Đã ghi 1000000 dòng vào IPLocation_2.csv
+2025-11-17 08:56:03 | INFO | Đã ghi 1000000 dòng vào IPLocation_3.csv
+2025-11-17 08:56:10 | INFO | Đã ghi 239627 dòng vào IPLocation_4.csv
+2025-11-17 08:56:10 | INFO | Đã export 3239627 IP ra 4 file csv.
+2025-11-17 08:56:37 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 1000000 dòng
+2025-11-17 08:56:53 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 2000000 dòng
+2025-11-17 08:57:08 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 3000000 dòng
+2025-11-17 08:57:23 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 4000000 dòng
+2025-11-17 08:57:37 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 5000000 dòng
+2025-11-17 08:57:52 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 6000000 dòng
+2025-11-17 08:58:07 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 7000000 dòng
+2025-11-17 08:58:23 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 8000000 dòng
+2025-11-17 08:58:38 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 9000000 dòng
+2025-11-17 08:59:05 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 10000000 dòng
+2025-11-17 08:59:47 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 11000000 dòng
+2025-11-17 09:00:18 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 12000000 dòng
+2025-11-17 09:00:31 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 13000000 dòng
+2025-11-17 09:00:44 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 14000000 dòng
+2025-11-17 09:00:57 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 15000000 dòng
+2025-11-17 09:01:11 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 16000000 dòng
+2025-11-17 09:01:25 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 17000000 dòng
+2025-11-17 09:01:39 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 18000000 dòng
+2025-11-17 09:01:54 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 19000000 dòng
+2025-11-17 09:02:09 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 20000000 dòng
+2025-11-17 09:02:23 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 21000000 dòng
+2025-11-17 09:02:37 | INFO | Insert thành công 1000000 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 22000000 dòng
+2025-11-17 09:02:46 | INFO | Insert thành công 715596 dòng vào bảng product_url_tmp trong PostgreSQL, tổng cộng: 22715596 dòng
+2025-11-17 09:02:46 | INFO | Bắt đầu xóa các bản ghi trùng lặp trong bảng product_url_tmp và lưu dữ liệu vào bảng product_url
+2025-11-17 09:03:40 | INFO | Đã lưu dữ liệu vào bảng product_url, số lượng bản ghi: 12369818
+2025-11-17 09:03:40 | INFO | Đã xóa bảng product_url_tmp
+2025-11-17 09:03:40 | INFO | Hoàn thành đẩy dữ liệu product_id, url từ mongodb vào bảng product_url trong PostgreSQL
+2025-11-17 09:03:40 | INFO | -----HOÀN THÀNH TOÀN BỘ QUY TRÌNH-----

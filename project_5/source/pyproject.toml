@@ -1,0 +1,24 @@
+[project]
+name = "project-5"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "quannh1311",email = "nhq13111997@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datetime (>=5.5,<6.0)",
+    "pymongo (>=4.15.4,<5.0.0)",
+    "pathlib (>=1.0.1,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "aiosqlite (>=0.21.0,<0.22.0)",
+    "logging (>=0.4.9.6,<0.5.0.0)",
+    "aiohttp (>=3.13.2,<4.0.0)",
+    "asyncio (>=4.0.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

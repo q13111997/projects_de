@@ -1,0 +1,22 @@
+[project]
+name = "project-6-poetry"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "q13111997",email = "quannguyenhong22@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pymongo (>=4.15.5,<5.0.0)",
+    "google-cloud-storage (>=3.7.0,<4.0.0)",
+    "google-cloud-bigquery (>=3.38.0,<4.0.0)",
+    "google-cloud-firestore (>=2.21.0,<3.0.0)",
+    "google-auth (>=2.43.0,<3.0.0)",
+    "flask (>=3.1.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

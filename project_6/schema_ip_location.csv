@@ -1,6 +1,0 @@
-name,type,mode,description,is_nested
-ip,STRING,NULLABLE,,NO
-country_short,STRING,NULLABLE,,NO
-country_long,STRING,NULLABLE,,NO
-region,STRING,NULLABLE,,NO
-city,STRING,NULLABLE,,NO
